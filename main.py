@@ -97,12 +97,128 @@ def fig3():
     )
     return st.plotly_chart(fig3)
 
+def fig4(df):
+    fig4 = go.Figure()
+    fig4.add_trace(go.Bar(x=sorted(df["Team"].unique()),
+                          y=df.groupby(by="Team")["Matches"].sum(),
+                          name='Matches',
+                          marker_color='blue'
+                          ))
+    fig4.add_trace(go.Scatter(x=sorted(df["Team"].unique()),
+                              y=df.groupby(by="Team")["Player"].count(),
+                              mode='markers+text',
+                              name='Players',
+                              marker_color='red'
+                              ))
+    fig4.update_layout(
+        title='Matches and players per nations',
+        xaxis_tickfont_size=12,
+        yaxis=dict(
+            title='Matches / Players',
+            titlefont_size=16,
+            tickfont_size=14,
+        ),
+        legend=dict(
+            x=0,
+            y=1.0,
+            bgcolor='rgba(255, 255, 255, 0)',
+            bordercolor='rgba(255, 255, 255, 0)'
+        ),
+        bargap=0.2,
+        bargroupgap=0.1
+    )
+    return st.plotly_chart(fig4)
+
+def fig56(df,df1):
+    fig5 = go.Figure()
+
+    fig5.add_trace(go.Scatter(x=df.index, y=df['SUM'], mode='lines+markers', name='Goals', yaxis='y'))
+    fig5.add_trace(go.Scatter(x=df.index, y=df['AVG'], mode='markers', name='AVG', marker=dict(color='green', size=10),yaxis='y2'))
+
+    fig5.update_layout(yaxis=dict(title='Goals'), yaxis2=dict(title='AVG', overlaying='y', side='right'))
+    fig5.update_xaxes(tickmode='array', tickvals=euros.index)
+    fig5.update_layout(xaxis_title='EURO', title='Goals in EURO and avg goals/EURO')
+
+    fig6 = go.Figure()
+
+    fig6.add_trace(go.Bar(x=df1.index, y=df1['H'], name='Goals', yaxis='y'))
+    fig6.add_trace(go.Scatter(x=df1.index, y=df1['AVG'], mode='markers', name='AVG', marker=dict(color='red', size=12),yaxis='y2'))
+
+    fig6.update_layout(yaxis=dict(title='Matches'), yaxis2=dict(title='AVG', overlaying='y', side='right'))
+    fig6.update_xaxes(tickmode='array', tickvals=df1.index)
+    fig6.update_layout(title='Matches per stage and avg goals/stage')
+
+    return st.plotly_chart(fig5), st.plotly_chart(fig6)
+
+def fig7(df):
+    fig7 = go.Figure()
+
+    colors = ['red' if val < 0 else 'green' for val in df['ELO change']]
+
+    fig7.add_trace(go.Bar(
+        x=df['Euro'],
+        y=df['ELO change'],
+        name='Goals',
+        yaxis='y',
+        marker=dict(color=colors)  # Set colors according to the condition
+    ))
+
+    fig7.update_xaxes(tickmode='array', tickvals=df['Euro'])
+    fig7.update_layout(xaxis_title='EURO',yaxis_title='Goals', title='Change ELO rank in EURO')
+
+    return st.plotly_chart(fig7)
+
+def fig8(df):
+    fig8 = go.Figure()
+
+    colors = [1 if active else 0 for active in df['Active']]
+
+    fig8.add_trace(go.Scatter(
+        x=df['Matches'],
+        y=df['Goals'],
+        mode='markers',
+        hoverinfo='text',
+        text=df['Player'] + '<br>' + 'Matches: ' + df['Matches'].astype(str) + '<br>' + 'Goals: ' + df['Goals'].astype(str) + ' (' + df['Penatlies'].astype(str) + ') ' + '<br>' + 'AVG: ' + df['AVG'].astype(str),
+        name='all',
+        marker=dict(
+            color=colors,
+            colorscale='Viridis'
+        )
+    ))
+
+    fig8.update_layout(
+        title='Goals and matches',
+        xaxis=dict(title='Matches', titlefont_size=16, tickfont_size=14),
+        yaxis=dict(title='Goals', titlefont_size=16, tickfont_size=14),
+        legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
+        bargap=0.2,
+        bargroupgap=0.1
+    )
+
+    st.plotly_chart(fig8)
+
+def most_appear(df):
+    count = df['Player'].count()
+    nation = df.groupby(by='Team').count().sort_values('Player', ascending=False).index[0]
+    player = df.groupby(by='Team').count().sort_values('Player', ascending=False)['Player'][0]
+    caps = df.loc[df['Team'] == nation, 'Matches'].sum()
+    return count, nation, player, caps
+
+def most_goals(df):
+    if len(df)>0:
+        gplayers = df['Player'].count()
+        ggoals = df['Goals'].sum()
+        gnation = df.groupby(by='Team')[['Team','Goals']].sum().sort_values(by='Goals',ascending=False).index[0]
+        gplayer = df.loc[df['Team'] == gnation,'Player'].count()
+        gcaps = df.loc[df['Team'] == gnation, 'Goals'].sum()
+        return gplayers, ggoals, gnation, gplayer, gcaps
+
 st.header("Dashboard - EURO")
 
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Stands","Players","Result","ELO rank","2024","Qualitfication",'Predict matches - ML'])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["🗓️ stands","⚽️ players","🏅 history result","📈 ELO","🏆 EURO 2024","✅ qualitfication",'🤖 predict matches - ML'])
 
 with tab1:
-    st.subheader("🗓️ EURO 1960 - present")
+    st.subheader("EURO 1960 - present")
     st.write('')
     all = pd.read_csv('/Users/admin/Downloads/data/all.csv', sep =';',index_col=[0,1])
     trophy = lambda x: (x * '🏆')
@@ -144,96 +260,125 @@ with tab2:
     st.header("Players in Euro")
     players = pd.read_csv('/Users/admin/Downloads/data/players_modified.csv', sep =',',index_col=0)
     players['Active'].fillna(False, inplace=True)
-    print(players['Active'])
-    col1, col2 = st.columns(2)
-    active = int(players['Active'].sum())
-    most = players.groupby(by='Team').count().sort_values('Player', ascending=False).index[0]
-    player = players.groupby(by='Team').count().sort_values('Player', ascending=False)['Player'][0]
-    spain = players.loc[players['Team']==most,'Matches'].sum()
-    on = st.toggle('Active player')
-    if on:
-        col1.metric('Players',players['Player'].count(),active,delta_color="off", help=f'{active} still playing')
-    else:
-        col1.metric('Players', players['Player'].count())
-    col2.metric('Most apperences',f'{spain} with {player} players {spain}')
     players = players.reset_index(drop=True)
     players.index += 1
-    if on:
-        st.dataframe(players.loc[players['Active']==True],  use_container_width=True)
-    else:
-        st.dataframe(players,  use_container_width=True)
 
-    goals = pd.read_csv('/Users/admin/Downloads/data/goals_modified.csv', sep=',', index_col='Index')
+    teams=sorted(players['Team'].unique())
+
+    goals = pd.read_csv('/Users/admin/Downloads/data/goals_modified.csv', sep=',',index_col=1)
+    goals.drop(goals.columns[0],inplace=True,axis=1)
     goals['AVG'] = goals['AVG'].round(2).apply(lambda x: '{:.2f}'.format(x))
+    goals['AVG'] = goals['AVG'].astype(float)
 
-    col3, col4 = st.columns(2)
-    most_goals_nation = goals.groupby(by='Team')[['Team','Goals']].sum().sort_values(by='Goals',ascending=False).index[0]
-    most_goals = goals.groupby(by='Team')[['Team', 'Goals']].sum().sort_values(by='Goals', ascending=False)['Goals'][0]
-    col3.metric('Players', goals['Player'].count())
-    col4.metric('Most goals',f'{most_goals_nation} with {most_goals} goals')
-    goals['AVG']=goals['AVG'].astype(float)
+    select = st.checkbox('I want to select teams')
+    options = st.multiselect(
+        'What country do you want to check?',
+        teams,
+        teams[24],
+        disabled=not select)
+
+    on = st.toggle('Active player')
+    col1, col2, col3, col4 = st.columns(4)
+    count, nation, player, caps = most_appear(players)
+    gplayers, ggoals, gnation, gplayer, gcaps = most_goals(goals)
+
+    if on and select and len(options)>0:
+        players = players.loc[(players['Active'] == True) & (players['Team'].isin(options))]
+        count, nation, player, caps = most_appear(players)
+    elif on and not select:
+        players = players.loc[players['Active']==True]
+        count, nation, player, caps = most_appear(players)
+    elif on and select and len(options)==0:
+        players = players.loc[players['Active']==True]
+        count, nation, player, caps = most_appear(players)
+    elif select and len(options)>0:
+        players = players.loc[players['Team'].isin(options)]
+        count, nation, player, caps = most_appear(players)
+    else:
+        players = players
+        count, nation, player, caps = most_appear(players)
+
+    col1.metric('Players', f'{count}')
+    col2.metric('Most popular nation is',f'{nation}')
+    col3.metric('with players', f'{player} ')
+    col4.metric('and apperances', f'{caps}')
+
+    st.dataframe(players,  use_container_width=True)
+
+    with st.expander("Show data of chart"):
+        fig4(players)
+
+    st.divider()
+
     values = st.slider(
         'Select a range of avg goals per match',
         0.0, 2.5, (0.0, 2.5))
-    on1 = st.toggle('Active player1')
-    if on1:
-        st.dataframe(goals.loc[((goals['AVG'].between(float(values[0]), float(values[1]))) & (goals['Active']==True))], use_container_width=True)
-    else:
-        st.dataframe(goals.loc[goals['AVG'].between(float(values[0]),float(values[1]))], use_container_width=True)
 
-    fig4 = go.Figure()
+    if on:
+        goals = goals.loc[((goals['AVG'].between(float(values[0]), float(values[1]))) & (goals['Active']==True))]
+        if len(goals)>0:
+            gplayers, ggoals, gnation, gplayer, gcaps = most_goals(goals)
 
-    # Określenie kolorów na podstawie wartości 'Active'
-    colors = [1 if active else 0 for active in players['Active']]
-
-    fig4.add_trace(go.Scatter(
-        x=goals['Matches'],
-        y=goals['Goals'],
-        mode='markers',
-        hoverinfo='text',
-        text=goals['Player'],
-        name='all',
-        marker=dict(
-            color=colors,
-        )
-    ))
-
-    # Aktualizacja ustawień wykresu
-    fig4.update_layout(
-        title='Goals and matches',
-        xaxis=dict(title='Matches', titlefont_size=16, tickfont_size=14),
-        yaxis=dict(title='Goals', titlefont_size=16, tickfont_size=14),
-        legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
-        bargap=0.2,
-        bargroupgap=0.1
-    )
+    if len(goals) > 0:
+        goals = goals.loc[goals['AVG'].between(float(values[0]), float(values[1]))]
+        try:
+            gplayers, ggoals, gnation, gplayer, gcaps = most_goals(goals)
+            col5, col6, col7, col8 = st.columns(4)
+            col5.metric('Players', gplayers)
+            col6.metric('Goals', ggoals)
+            col7.metric('Most popular nation is', gnation)
+            col8.metric('with players', gplayer)
+            col8.metric('and goals', gcaps)
+            goals['AVG'] = goals['AVG'].round(2).apply(lambda x: '{:.2f}'.format(x))
+            goals['AVG']= goals['AVG'].astype(str)
+            st.dataframe(goals, use_container_width=True)
+            fig8(goals)
+        except:
+            st.error("No records to display :(")
 
 
-    # Wyświetlanie wykresu w Streamlit
-    st.plotly_chart(fig4)
+
+
+
 
 with tab3:
     result = pd.read_csv('/Users/admin/Downloads/data/result_modified.csv',sep=',',index_col=0)
-    tab31, tab32 = st.columns(2)
-    tab31.metric('Matches',result['Extra Time'].sum(),'was ended by Extra Time',delta_color="off")
-    tab32.metric('Penatly',result['Penatly'].sum(),round(result['Penatly'].sum()/result['Euro'].count(),2))
+    col1, col2 = st.columns(2)
+    col1.metric('Matches was ended by extra time',result['Extra Time'].sum())
+    col2.metric('Matches was ended by penatlies',result['Penatly'].sum())
     result['Euro']=result['Euro'].astype(str)
-    filtering = st.radio(
-        "How match was enderd",
-        ["regular time", "extra time", "penatly"],
-        key="visibility"
-    )
-    teams=sorted(result['Euro'].unique())
-    if filtering == 'regular time':
-        euro = st.selectbox('Select EURO:',teams)
 
+    euro = sorted(result['Euro'].unique())
 
-    if filtering == 'extra time':
+    with col2:
+        check_euro = st.checkbox('Want to check Euro')
+
+    with col1:
+        filtering = st.radio(
+        "Select matches:",
+        ["no specify", "by extra time", "by penatlies"],
+        key="visibility",
+        disabled= check_euro
+        )
+    with col2:
+        option = st.selectbox(
+        "Which euro do you want to check?",
+        euro,
+        index=None,
+        placeholder="Select euro...",
+        disabled= not check_euro
+        )
+    if check_euro:
+        filtering='by specify'
+
+    if filtering == 'by extra time':
         st.dataframe(result.loc[result['Extra Time']==True])
-    elif filtering == 'penatly':
+    elif filtering == 'by penatlies':
         st.dataframe(result.loc[result['Penatly'] == True])
+    elif check_euro and isinstance(option,str):
+        st.dataframe(result.loc[result['Euro'].isin([option])])
     else:
-        st.dataframe(result.loc[result['Euro']==euro])
+        st.dataframe(result)
 
     result['H'] = result['H'].astype(int)
     result['A'] = result['A'].astype(int)
@@ -242,42 +387,20 @@ with tab3:
     euros['AVG'] = round(euros['SUM'] / euros['H'], 2)
     euros.rename(columns={'H': 'COUNT'})
 
-    fig = go.Figure()
-
-    fig.add_trace(go.Scatter(x=euros.index, y=euros['SUM'], mode='lines+markers', name='Goals', yaxis='y'))
-    fig.add_trace(go.Scatter(x=euros.index, y=euros['AVG'], mode='markers', name='AVG', marker=dict(color='green', size=10),yaxis='y2'))
-
-    fig.update_layout(yaxis=dict(title='Goals'), yaxis2=dict(title='AVG', overlaying='y', side='right'))
-    fig.update_xaxes(tickmode='array', tickvals=euros.index)
-    fig.update_layout(xaxis_title='EURO', title='Goals in EURO and avg goals/EURO')
-
-    st.plotly_chart(fig)
-
     stages = result.groupby('Stage').agg({'SUM': 'sum', 'H': 'count'})
     stages['AVG'] = round(stages['SUM'] / stages['H'], 2)
     stages.rename(columns={'H': 'COUNT'})
     order = ['Group', 'Round of 16', 'Quarter-finals', 'Semi-finals', '3rd place', 'Final']
     stages = stages.reindex(order)
 
-    fig32 = go.Figure()
-    fig32.add_trace(go.Bar(x=stages.index, y=stages['H'], name='Goals', yaxis='y'))
-    fig32.add_trace(go.Scatter(x=stages.index, y=stages['AVG'], mode='markers', name='AVG', marker=dict(color='red', size=12),yaxis='y2'))
-    fig32.update_layout(yaxis=dict(title='Matches'), yaxis2=dict(title='AVG', overlaying='y', side='right'))
-    fig32.update_xaxes(tickmode='array', tickvals=stages.index)
-    fig32.update_layout(title='Matches per stage and avg goals/stage')
-
-    st.plotly_chart(fig32)
-
-
-
-
-
-
+    fig56(euros,stages)
 
 with tab4:
     elo_start = pd.read_csv('/Users/admin/Downloads/data/ELO_start.csv', sep =';')
     elo_end = pd.read_csv('/Users/admin/Downloads/data/ELO_end.csv', sep =';')
     elo = pd.merge(elo_start, elo_end, on=['Euro', 'Team'], how='inner')
+    elo = elo.reset_index(drop=True)
+    elo.index += 1
     team = sorted(elo['Team'].unique())
     option = st.selectbox(
         "Which country do you interested in?",
@@ -289,16 +412,17 @@ with tab4:
     elo['Euro']=elo['Euro'].astype(str)
     order = ['Euro','Team','Rating_x','Local_x','Global_x','Rating_y','Local_y','Global_y','Change']
     elo=elo[order]
+    change={'Team':'Country','Rating_x':'ELO before','Local_x':'REB','Global_x':'RGB','Rating_y':'ELO after','Local_y':'REA','Global_y':'RGA','Change':'ELO change'}
+    elo.rename(columns=change, inplace=True)
     if option:
-        st.dataframe(elo.loc[elo['Team']==option])
         col1, col2 = st.columns(2)
-        col1.metric('Best Euro:', int(elo.loc[(elo['Change'] == elo['Change'].loc[elo['Team'] == option].max()) & (elo['Team'] == option)]['Euro']))
-        col2.metric('Worst Euro:', int(elo.loc[(elo['Change'] == elo['Change'].loc[elo['Team'] == option].min()) & (elo['Team'] == option)]['Euro']))
+        col1.metric('Best Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[elo['Country'] == option].max()) & (elo['Country'] == option)]['Euro']))
+        col2.metric('Worst Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[elo['Country'] == option].min()) & (elo['Country'] == option)]['Euro']))
+        elo = elo.loc[elo['Country']==option]
+        st.dataframe(elo.style.highlight_max(subset = ['ELO change'],color = 'green', axis =0),use_container_width=True)
+        fig7(elo)
     else:
         st.dataframe(elo, use_container_width=True)
-
-    chart_data = pd.DataFrame(elo['Euro'],elo['Rating_x'])
-    st.line_chart(chart_data)
 
 with tab5:
     tabA, tabB, tabC, tabD, tabE, tabF = st.tabs(["Group A","Group B","Group C","Group D","Group E","Group F"])
@@ -324,7 +448,13 @@ with tab6:
     passes['Euro 2024'].fillna(False, inplace=True)
     passes = passes.reset_index(drop=True)
     passes.index += 1
-    st.dataframe(passes)
+    st.dataframe(passes,column_config={
+            "Pass Accuracy (avg)": st.column_config.ProgressColumn(
+                "Pass Accuracy (avg)",
+                format="%.2f%%",
+                min_value=0,
+                max_value=100,
+            )})
     shots = pd.read_csv('/Users/admin/Downloads/data/2024Q_shots.csv', sep=';')
     goals = pd.read_csv('/Users/admin/Downloads/data/2024Q_goals.csv', sep=';')
     goals.drop(columns=['#'], inplace=True, axis=0)
