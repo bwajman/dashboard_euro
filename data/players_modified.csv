@@ -1,0 +1,2460 @@
+,Player,Country,Matches,Active
+1,Cristiano Ronaldo,Portugal,25,True
+2,João Moutinho,Portugal,19,True
+3,Pepe,Portugal,19,True
+4,Leonardo Bonucci,Italy,18,True
+5,Bastian Schweinsteiger,Germany,18,False
+6,Gianluigi Buffon,Italy,17,False
+7,Giorgio Chiellini,Italy,17,False
+8,Cesc Fàbregas,Spain,16,False
+9,Iniesta,Spain,16,True
+10,Jordi Alba,Spain,16,True
+11,Rui Patrício,Portugal,16,True
+12,Lilian Thuram,France,16,False
+13,Edwin van der Sar,Netherlands,16,False
+14,David Silva,Spain,15,False
+15,Hugo Lloris,France,15,True
+16,Thomas Müller,Germany,15,True
+17,Nani,Portugal,15,True
+18,Manuel Neuer,Germany,15,True
+19,Sergio Ramos,Spain,15,True
+20,Busquets,Spain,14,True
+21,Petr Čech,Czech Republic,14,False
+22,Iker Casillas,Spain,14,False
+23,Toni Kroos,Germany,14,True
+24,Philipp Lahm,Germany,14,False
+25,Luís Figo,Portugal,14,False
+26,Nuno Gomes,Portugal,14,False
+27,Karel Poborský,Czech Republic,14,False
+28,Zinédine Zidane,France,14,False
+29,Dennis Bergkamp,Netherlands,13,False
+30,Laurent Blanc,France,13,False
+31,Antonio Cassano,Italy,13,False
+32,Phillip Cocu,Netherlands,13,False
+33,Alessandro Del Piero,Italy,13,False
+34,Didier Deschamps,France,13,False
+35,Fernando Torres,Spain,13,False
+36,Mario Gómez,Germany,13,False
+37,Thomas Häßler,Germany,13,False
+38,Mats Hummels,Germany,13,True
+39,Zlatan Ibrahimović,Sweden,13,False
+40,Andreas Isaksson,Sweden,13,False
+41,Kostas Katsouranis,Greece,13,False
+42,Jürgen Klinsmann,Germany,13,False
+43,Miroslav Klose,Germany,13,False
+44,Paolo Maldini,Italy,13,False
+45,Olof Mellberg,Sweden,13,False
+46,Luka Modrić,Croatia,13,True
+47,Peter Schmeichel,Denmark,13,False
+48,Andreas Brehme,Germany,12,False
+49,Edgar Davids,Netherlands,12,False
+50,Daniele De Rossi,Italy,12,False
+51,Marcel Desailly,France,12,False
+52,Fernando Couto,Portugal,12,False
+53,Kim Källström,Sweden,12,False
+54,Bixente Lizarazu,France,12,False
+55,Pavel Nedvěd,Czech Republic,12,False
+56,Lukas Podolski,Germany,12,True
+57,Rui Costa,Portugal,12,False
+58,Darijo Srna,Croatia,12,False
+59,Xabi Alonso,Spain,12,False
+60,Michael Ballack,Germany,11,False
+61,Vedran Ćorluka,Croatia,11,False
+62,Olivier Giroud,France,11,True
+63,Antoine Griezmann,France,11,True
+64,Thierry Henry,France,11,False
+65,Harry Kane,England,11,True
+66,Sebastian Larsson,Sweden,11,False
+67,Robert Lewandowski,Poland,11,True
+68,Lothar Matthäus,Germany,11,False
+69,Gary Neville,England,11,False
+70,Mesut Özil,Germany,11,False
+71,Andrea Pirlo,Italy,11,False
+72,Jaroslav Plašil,Czech Republic,11,False
+73,Paul Pogba,France,11,True
+74,Ricardo Carvalho,Portugal,11,False
+75,Vladimír Šmicer,Czech Republic,11,False
+76,Giovanni van Bronckhorst,Netherlands,11,False
+77,Xavi,Spain,11,False
+78,Andrey Yarmolenko,Ukraine,11,True
+79,Gianluca Zambrotta,Italy,11,False
+80,Joe Allen,Wales,10,True
+81,Álvaro Morata,Spain,10,True
+82,Gareth Bale,Wales,10,False
+83,Milan Baroš,Czech Republic,10,False
+84,Andrea Barzagli,Italy,10,False
+85,Karim Benzema,France,10,True
+86,Jérôme Boateng,Germany,10,True
+87,Costinha,Portugal,10,False
+88,Thibaut Courtois,Belgium,10,True
+89,Youri Djorkaeff,France,10,False
+90,Patrice Evra,France,10,False
+91,Gordillo,Spain,10,False
+92,Sergey Ignashevich,Russia,10,False
+93,Giorgios Karagounis,Greece,10,False
+94,Sami Khedira,Germany,10,False
+95,Jürgen Kohler,Germany,10,False
+96,Jan Koller,Czech Republic,10,False
+97,Henrik Larsson,Sweden,10,False
+98,Michael Laudrup,Denmark,10,False
+99,Freddie Ljungberg,Sweden,10,False
+100,Romelu Lukaku,Belgium,10,True
+101,Ivan Perišić,Croatia,10,True
+102,Piqué,Spain,10,False
+103,Ivan Rakitić,Croatia,10,True
+104,Michael Reiziger,Netherlands,10,False
+105,Renato Sanches,Portugal,10,True
+106,Ricardo,Portugal,10,False
+107,Wayne Rooney,England,10,False
+108,Tomáš Rosický,Czech Republic,10,False
+109,Matthias Sammer,Germany,10,False
+110,Clarence Seedorf,Netherlands,10,False
+111,John Sivebæk,Denmark,10,False
+112,Raheem Sterling,England,10,True
+113,Tony Adams,England,9,False
+114,Toby Alderweireld,Belgium,9,True
+115,Aleksandr Anyukov,Russia,9,False
+116,Fabien Barthez,France,9,False
+117,Angelos Charisteas,Greece,9,False
+118,Danilo,Portugal,9,True
+119,Ben Davies,Wales,9,True
+120,Frank de Boer,Netherlands,9,False
+121,Kevin De Bruyne,Belgium,9,True
+122,Deco,Portugal,9,False
+123,Traianos Dellas,Greece,9,False
+124,Breel Embolo,Switzerland,9,True
+125,Stefano Fiore,Italy,9,False
+126,Steven Gerrard,England,9,False
+127,Raphaël Guerreiro,Portugal,9,True
+128,Ruud Gullit,Netherlands,9,False
+129,Eden Hazard,Belgium,9,False
+130,Thomas Helmer,Germany,9,False
+131,Thomas Helveg,Denmark,9,False
+132,Lorenzo Insigne,Italy,9,True
+133,Marek Jankulovski,Czech Republic,9,False
+134,Simon Kjær,Denmark,9,True
+135,Patrick Kluivert,Netherlands,9,False
+136,Ronald Koeman,Netherlands,9,False
+137,Dries Mertens,Belgium,9,True
+138,Thomas Meunier,Belgium,9,True
+139,Jiří Němec,Czech Republic,9,False
+140,Alessandro Nesta,Italy,9,False
+141,Antonis Nikopolidis,Greece,9,False
+142,Aaron Ramsey,Wales,9,True
+143,Rüştü Reçber,Turkey,9,False
+144,Ricardo Quaresma,Portugal,9,False
+145,Frank Rijkaard,Netherlands,9,False
+146,Arjen Robben,Netherlands,9,False
+147,Ricardo Rodríguez,Switzerland,9,True
+148,Haris Seferović,Switzerland,9,True
+149,Xherdan Shaqiri,Switzerland,9,True
+150,Alan Shearer,England,9,False
+151,Yann Sommer,Switzerland,9,True
+152,Jaap Stam,Netherlands,9,False
+153,Anders Svensson,Sweden,9,False
+154,Thiago Motta,Italy,9,False
+155,Marco van Basten,Netherlands,9,False
+156,Hans van Breukelen,Netherlands,9,False
+157,Rafael van der Vaart,Netherlands,9,False
+158,Adri van Tiggelen,Netherlands,9,False
+159,Thomas Vermaelen,Belgium,9,False
+160,Patrick Vieira,France,9,False
+161,Kyle Walker,England,9,True
+162,Aron Winter,Netherlands,9,False
+163,Axel Witsel,Belgium,9,True
+164,Jan Wouters,Netherlands,9,False
+165,Yuriy Zhirkov,Russia,9,False
+166,Igor Akinfeev,Russia,8,True
+167,Demetrio Albertini,Italy,8,False
+168,Alfonso,Spain,8,False
+169,Nicolas Anelka,France,8,False
+170,Arconada,Spain,8,False
+171,Hakan Balta,Turkey,8,False
+172,Angelos Basinas,Greece,8,False
+173,Radek Bejbl,Czech Republic,8,False
+174,Jakub Błaszczykowski,Poland,8,False
+175,Guido Buchwald,Germany,8,False
+176,Sol Campbell,England,8,False
+177,Fabio Cannavaro,Italy,8,False
+178,Yannick Carrasco,Belgium,8,True
+179,Ashley Cole,England,8,False
+180,Kingsley Coman,France,8,True
+181,Vladimír Darida,Czech Republic,8,True
+182,Dimas,Portugal,8,False
+183,Christophe Dugarry,France,8,False
+184,Luis Fernández,France,8,False
+185,Torsten Frings,Germany,8,False
+186,Tomáš Galásek,Czech Republic,8,False
+187,Kamil Glik,Poland,8,True
+188,Gheorghe Hagi,Romania,8,False
+189,Joe Hart,England,8,True
+190,John Heitinga,Netherlands,8,False
+191,Jordan Henderson,England,8,True
+192,Ciro Immobile,Italy,8,True
+193,João Vieira Pinto,Portugal,8,False
+194,N'Golo Kanté,France,8,True
+195,Joshua Kimmich,Germany,8,True
+196,Laurent Koscielny,France,8,False
+197,Brian Laudrup,Denmark,8,False
+198,Aleksey Mikhaylichenko,CISUSSR,8,False
+199,Andreas Möller,Germany,8,False
+200,Lars Olsen,Denmark,8,False
+201,Marc Overmars,Netherlands,8,False
+202,Roman Pavlyuchenko,Russia,8,False
+203,Stuart Pearce,England,8,False
+204,Łukasz Piszczek,Poland,8,False
+205,Flemming Povlsen,Denmark,8,False
+206,Puyol,Spain,8,False
+207,Adil Rami,France,8,False
+208,Raúl Meireles,Portugal,8,False
+209,Stefan Reuter,Germany,8,False
+210,Fabian Schär,Switzerland,8,True
+211,Georgios Seitaridis,Greece,8,False
+212,Moussa Sissoko,France,8,True
+213,Wesley Sneijder,Netherlands,8,False
+214,Maarten Stekelenburg,Netherlands,8,False
+215,Ruud van Nistelrooy,Netherlands,8,False
+216,Jan Vertonghen,Belgium,8,True
+217,Víctor Muñoz,Spain,8,False
+218,Domagoj Vida,Croatia,8,True
+219,Kim Vilfort,Denmark,8,False
+220,Vítor Baía,Portugal,8,False
+221,Rudi Völler,Germany,8,False
+222,Christian Wilhelmsson,Sweden,8,False
+223,Sylvain Wiltord,France,8,False
+224,Granit Xhaka,Switzerland,8,True
+225,Christian Ziege,Germany,8,False
+226,Oleksandr Zinchenko,Ukraine,8,True
+227,Abelardo,Spain,7,False
+228,David Alaba,Austria,7,True
+229,Sergey Aleynikov,CISUSSR,7,False
+230,Massimo Ambrosini,Italy,7,False
+231,Arbeloa,Spain,7,False
+232,Markus Babbel,Germany,7,False
+233,David Beckham,England,7,False
+234,Valon Behrami,Switzerland,7,False
+235,Marcus Berg,Sweden,7,False
+236,Patrik Berger,Czech Republic,7,False
+237,Joachim Björklund,Sweden,7,False
+238,Hans-Peter Briegel,Germany,7,False
+239,Marcelo Brozović,Croatia,7,True
+240,Bruno Alves,Portugal,7,False
+241,Camacho,Spain,7,False
+242,Jan Ceulemans,Belgium,7,False
+243,Federico Chiesa,Italy,7,True
+244,Cristian Chivu,Romania,7,False
+245,Ronald de Boer,Netherlands,7,False
+246,Antonio Di Natale,Italy,7,False
+247,Roberto Donadoni,Italy,7,False
+248,Gianluigi Donnarumma,Italy,7,True
+249,Albin Ekdal,Sweden,7,True
+250,Arif Erdem,Turkey,7,False
+251,Emil Forsberg,Sweden,7,True
+252,Karlheinz Förster,Germany,7,False
+253,Arne Friedrich,Germany,7,False
+254,William Gallas,France,7,False
+255,Gallego,Spain,7,False
+256,Zdeněk Grygera,Czech Republic,7,False
+257,Chris Gunter,Wales,7,False
+258,Marek Hamšík,Slovakia,7,False
+259,Hélder Postiga,Portugal,7,False
+260,René Henriksen,Denmark,7,False
+261,Martin Hinteregger,Austria,7,False
+262,Paul Ince,England,7,False
+263,Iván Helguera,Spain,7,False
+264,Faxe Jensen,Denmark,7,False
+265,João Mário,Portugal,7,True
+266,Jorginho,Italy,7,True
+267,Koke,Spain,7,True
+268,Andrej Kramarić,Croatia,7,True
+269,Grzegorz Krychowiak,Poland,7,True
+270,Juraj Kucka,Slovakia,7,True
+271,Pavel Kuka,Czech Republic,7,False
+272,Oleg Kuznetsov,CISUSSR,7,False
+273,Henrik Larsen,Denmark,7,False
+274,Stephan Lichtsteiner,Switzerland,7,False
+275,Victor Lindelöf,Sweden,7,True
+276,Mikael Lustig,Sweden,7,False
+277,Marchena,Spain,7,False
+278,Blaise Matuidi,France,7,False
+279,Dorinel Munteanu,Romania,7,False
+280,Ivan Nielsen,Denmark,7,False
+281,Mikael Nilsson,Sweden,7,False
+282,Morten Olsen,Denmark,7,False
+283,Michael Owen,England,7,False
+284,Alpay Özalan,Turkey,7,False
+285,Christian Panucci,Italy,7,False
+286,Dimitri Payet,France,7,True
+287,Peter Pekarík,Slovakia,7,True
+288,Jean-Marie Pfaff,Belgium,7,False
+289,Kalvin Phillips,England,7,True
+290,Jordan Pickford,England,7,True
+291,Robert Pirés,France,7,False
+292,David Platt,England,7,False
+293,Marcus Rashford,England,7,True
+294,Raúl,Spain,7,False
+295,Franck Ribéry,France,7,False
+296,Declan Rice,England,7,True
+297,Karl-Heinz Rummenigge,Germany,7,False
+298,Sá Pinto,Portugal,7,False
+299,Marcel Sabitzer,Austria,7,True
+300,Bacary Sagna,France,7,False
+301,Santi Cazorla,Spain,7,True
+302,Paul Scholes,England,7,False
+303,Toni Schumacher,Germany,7,False
+304,David Seaman,England,7,False
+305,Roman Shirokov,Russia,7,False
+306,Tomáš Sivok,Czech Republic,7,False
+307,Uli Stielike,Germany,7,False
+308,Dragan Stojković,Yugoslavia,7,False
+309,John Stones,England,7,True
+310,Hakan Şükür,Turkey,7,False
+311,Sergiy Sydorchuk,Ukraine,7,True
+312,Ádám Szalai,Hungary,7,False
+313,Ogün Temizkanoğlu,Turkey,7,False
+314,John Terry,England,7,False
+315,Jon Dahl Tomasson,Denmark,7,False
+316,Mehmet Topal,Turkey,7,False
+317,David Trezeguet,France,7,False
+318,Tomáš Ujfaluši,Czech Republic,7,False
+319,Berry van Aerle,Netherlands,7,False
+320,Robin van Persie,Netherlands,7,False
+321,René Vandereycken,Belgium,7,False
+322,William Carvalho,Portugal,7,True
+323,Dino Zoff,Italy,7,False
+324,Zubizarreta,Spain,7,False
+325,Konstantin Zyryanov,Russia,7,False
+326,Ibrahim Afellay,Netherlands,6,False
+327,Klaus Allofs,Germany,6,False
+328,Alessandro Altobelli,Italy,6,False
+329,Marko Arnautović,Austria,6,True
+330,Andrey Arshavin,Russia,6,False
+331,Mario Balotelli,Italy,6,True
+332,Nicolò Barella,Italy,6,True
+333,Andrea Belotti,Italy,6,True
+334,Domenico Berardi,Italy,6,True
+335,Klaus Berggreen,Denmark,6,False
+336,Wilfred Bouma,Netherlands,6,False
+337,Martin Braithwaite,Denmark,6,True
+338,Mauro Camoranesi,Italy,6,False
+339,James Chester,Wales,6,True
+340,Andreas Christensen,Denmark,6,True
+341,Cosmin Contra,Romania,6,False
+342,Bryan Cristante,Italy,6,True
+343,Nigel de Jong,Netherlands,6,False
+344,Thomas Delaney,Denmark,6,True
+345,Giovanni Di Lorenzo,Italy,6,True
+346,Aleksandar Dragović,Austria,6,True
+347,Ondrej Duda,Slovakia,6,True
+348,Michal Ďuriš,Slovakia,6,True
+349,Artem Dzyuba,Russia,6,True
+350,Dieter Eilts,Germany,6,False
+351,Preben Elkjær Larsen,Denmark,6,False
+352,Etxeberria,Spain,6,False
+353,Gelson Fernandes,Switzerland,6,False
+354,Ferran Torres,Spain,6,True
+355,Alessandro Florenzi,Italy,6,True
+356,Panagiotis Fyssas,Greece,6,False
+357,Constantin Gâlcă,Romania,6,False
+358,Theofanis Gekas,Greece,6,False
+359,Emanuele Giaccherini,Italy,6,False
+360,Stylianos Giannakopoulos,Greece,6,False
+361,André-Pierre Gignac,France,6,True
+362,Koloman Gögh,CSSR,6,False
+363,Aleksandr Golovin,Russia,6,True
+364,Andy Goram,Scotland,6,False
+365,Andreas Granqvist,Sweden,6,False
+366,Kamil Grosicki,Poland,6,True
+367,Jesper Grønkjær,Denmark,6,False
+368,Dietmar Hamann,Germany,6,False
+369,Jonas Hector,Germany,6,False
+370,Jan Heintze,Denmark,6,False
+371,Hierro,Spain,6,False
+372,Michal Horňák,Czech Republic,6,False
+373,Benedikt Höwedes,Germany,6,False
+374,Pierre-Emile Højbjerg,Denmark,6,True
+375,Adrian Ilie,Romania,6,False
+376,Mark Iuliano,Italy,6,False
+377,Mathias Jensen,Denmark,6,True
+378,Jorge Andrade,Portugal,6,False
+379,Ladislav Jurkemik,CSSR,6,False
+380,Oliver Kahn,Germany,6,False
+381,Mihalis Kapsis,Greece,6,False
+382,Martin Keown,England,6,False
+383,Tugay Kerimoğlu,Turkey,6,False
+384,Yevhen Khacheridi,Ukraine,6,False
+385,Yevgen Konoplyanka,Ukraine,6,False
+386,Andreas Köpke,Germany,6,False
+387,Petr Kouba,Czech Republic,6,False
+388,Niko Kovač,Croatia,6,False
+389,Robert Kovač,Croatia,6,False
+390,Mateo Kovačić,Croatia,6,True
+391,Niko Kranjčar,Croatia,6,False
+392,Kevin Kurányi,Germany,6,False
+393,Dirk Kuyt,Netherlands,6,False
+394,Bernard Lama,France,6,False
+395,Aymeric Laporte,Spain,6,True
+396,Joe Ledley,Wales,6,False
+397,Jens Lehmann,Germany,6,False
+398,Søren Lerby,Denmark,6,False
+399,Gary Lineker,England,6,False
+400,Pierre Littbarski,Germany,6,False
+401,Shane Long,Ireland,6,False
+402,Robert Mak,Slovakia,6,True
+403,Claude Makélélé,France,6,False
+404,Mario Mandžukić,Croatia,6,False
+405,Maniche,Portugal,6,False
+406,Claudio Marchisio,Italy,6,False
+407,Marián Masný,CSSR,6,False
+408,Joakim Mæhle,Denmark,6,True
+409,Gary McAllister,Scotland,6,False
+410,Stuart McCall,Scotland,6,False
+411,Aiden McGeady,Ireland,6,True
+412,Steve McManaman,England,6,False
+413,Admir Mehmedi,Switzerland,6,False
+414,Per Mertesacker,Germany,6,False
+415,Christoph Metzelder,Germany,6,False
+416,Miguel,Portugal,6,False
+417,Miguel Veloso,Portugal,6,True
+418,Mikel Oyarzabal,Spain,6,True
+419,Viorel Moldovan,Romania,6,False
+420,Patrick Müller,Switzerland,6,False
+421,Adrian Mutu,Romania,6,False
+422,Ádám Nagy,Hungary,6,True
+423,Samir Nasri,France,6,False
+424,Zdeněk Nehoda,CSSR,6,False
+425,John O'Shea,Ireland,6,False
+426,Ivica Olić,Croatia,6,False
+427,Martin Olsson,Sweden,6,True
+428,Anton Ondruš,CSSR,6,False
+429,Antonín Panenka,CSSR,6,False
+430,Pau Torres,Spain,6,True
+431,Pauleta,Portugal,6,False
+432,Paulo Ferreira,Portugal,6,False
+433,Paulo Sousa,Portugal,6,False
+434,Pedri,Spain,6,True
+435,Simone Perrotta,Italy,6,False
+436,Dan Petrescu,Romania,6,False
+437,Stipe Pletikosa,Croatia,6,False
+438,Gheorghe Popescu,Romania,6,False
+439,Danijel Pranjić,Croatia,6,False
+440,Andriy Pyatov,Ukraine,6,False
+441,Dennis Rommedahl,Denmark,6,False
+442,David Rozehnal,Czech Republic,6,False
+443,Santillana,Spain,6,False
+444,Kasper Schmeichel,Denmark,6,True
+445,Mehmet Scholl,Germany,6,False
+446,Igor Semshov,Russia,6,False
+447,Luke Shaw,England,6,True
+448,Simão,Portugal,6,False
+449,Josip Šimunić,Croatia,6,False
+450,Gareth Southgate,England,6,False
+451,Bogdan Stelea,Romania,6,False
+452,Ivan Strinić,Croatia,6,False
+453,Jens Stryger Larsen,Denmark,6,True
+454,Neil Taylor,Wales,6,False
+455,Thiago,Spain,6,True
+456,Francesco Toldo,Italy,6,False
+457,Vasilios Torosidis,Greece,6,False
+458,Francesco Totti,Italy,6,False
+459,Ozan Tufan,Turkey,6,True
+460,Arda Turan,Turkey,6,False
+461,Unai Simón,Spain,6,True
+462,Erwin Vandenbergh,Belgium,6,False
+463,Jannik Vestergaard,Denmark,6,True
+464,Stephen Ward,Ireland,6,False
+465,Marcin Wasilewski,Poland,6,False
+466,Vladimír Weiss,Slovakia,6,True
+467,Ashley Williams,Wales,6,False
+468,Hakan Yakin,Switzerland,6,False
+469,Burak Yılmaz,Turkey,6,False
+470,Theodoros Zagorakis,Greece,6,False
+471,Boudewijn Zenden,Netherlands,6,False
+472,Manuel Akanji,Switzerland,5,True
+473,Hamit Altintop,Turkey,5,False
+474,Manuel Amoros,France,5,False
+475,Daniel Andersson,Sweden,5,False
+476,Kennet Andersson,Sweden,5,False
+477,Patrik Andersson,Sweden,5,False
+478,Darren Anderton,England,5,False
+479,André Gomes,Portugal,5,True
+480,Kári Árnason,Iceland,5,False
+481,Azpilicueta,Spain,5,True
+482,Holger Badstuber,Germany,5,False
+483,Nick Barmby,England,5,False
+484,Joël Bats,France,5,False
+485,Patrick Battiston,France,5,False
+486,Vasiliy Berezutskiy,Russia,5,False
+487,Federico Bernardeschi,Italy,5,True
+488,Diniyar Bilyaletdinov,Russia,5,False
+489,Birkir Bjarnason,Iceland,5,True
+490,Fredi Bobic,Germany,5,False
+491,Marco Bode,Germany,5,False
+492,Jón Böðvarsson,Iceland,5,True
+493,Maxime Bossis,France,5,False
+494,Georgiy Bushchan,Ukraine,5,True
+495,Søren Busk,Denmark,5,False
+496,Yohan Cabaye,France,5,False
+497,Hakan Çalhanoğlu,Turkey,5,True
+498,Capdevila,Spain,5,False
+499,Carrasco,Spain,5,False
+500,Ondřej Čelůstka,Czech Republic,5,True
+501,Stéphane Chapuisat,Switzerland,5,False
+502,Kim Christofte,Denmark,5,False
+503,Vladimír Coufal,Czech Republic,5,True
+504,Mikkel Damsgaard,Denmark,5,True
+505,Dani Olmo,Spain,5,True
+506,Rinat Dasaev,USSR,5,False
+507,Bernard Dietz,Germany,5,False
+508,Jean-François Domergue,France,5,False
+509,Julian Draxler,Germany,5,True
+510,Dariusz Dudka,Poland,5,False
+511,Gordon Durie,Scotland,5,False
+512,Dragan Džajić,Yugoslavia,5,False
+513,Stefan Effenberg,Germany,5,False
+514,Johan Elmander,Sweden,5,False
+515,Nico Elvedi,Switzerland,5,True
+516,Abdullah Ercan,Turkey,5,False
+517,Fábio Coentrão,Portugal,5,False
+518,Iulian Filipescu,Romania,5,False
+519,Bernd Förster,Germany,5,False
+520,Remo Freuler,Switzerland,5,True
+521,Paul Gascoigne,England,5,False
+522,Mario Gavranović,Switzerland,5,True
+523,Theodor Gebre Selassie,Czech Republic,5,False
+524,Gerard Moreno,Spain,5,True
+525,Alain Giresse,France,5,False
+526,Mario Götze,Germany,5,True
+527,Thomas Gravesen,Denmark,5,False
+528,Jack Grealish,England,5,True
+529,Jóhann Guðmundsson,Iceland,5,True
+530,Vincent Guérin,France,5,False
+531,Aron Gunnarsson,Iceland,5,True
+532,Hannes Halldórsson,Iceland,5,False
+533,Martin Harnik,Austria,5,True
+534,Stéphane Henchoz,Switzerland,5,False
+535,Wayne Hennessey,Wales,5,True
+536,Thomas Hitzlsperger,Germany,5,False
+537,Tomáš Holeš,Czech Republic,5,True
+538,Tomáš Hubočan,Slovakia,5,True
+539,Tomáš Hübschman,Czech Republic,5,True
+540,Bodo Illgner,Germany,5,False
+541,Stefan Ilsanker,Austria,5,False
+542,Jakub Jankto,Czech Republic,5,True
+543,Marcell Jansen,Germany,5,False
+544,Artur Jędrzejczyk,Poland,5,True
+545,João Pereira,Portugal,5,False
+546,Tomasz Jodłowiec,Poland,5,True
+547,Jorge Costa,Portugal,5,False
+548,Martin Jørgensen,Denmark,5,False
+549,Julio Alberto,Spain,5,False
+550,Michal Kadlec,Czech Republic,5,True
+551,Miroslav Kadlec,Czech Republic,5,False
+552,Tomáš Kalas,Czech Republic,5,True
+553,Andrey Kanchelskis,RussiaCIS,5,False
+554,Oleksandr Karavayev,Ukraine,5,True
+555,Christian Karembeu,France,5,False
+556,Colin Kâzım-Richards,Turkey,5,False
+557,Robbie Keane,Ireland,5,False
+558,Vagiz Khidiyatullin,USSR,5,False
+559,László Kleinheisler,Hungary,5,True
+560,Igor Kolyvanov,RussiaCIS,5,False
+561,Tayfun Korkut,Turkey,5,False
+562,Ruud Krol,Netherlands,5,False
+563,Stefan Kuntz,Germany,5,False
+564,Radoslav Látal,Czech Republic,5,False
+565,David Limberský,Czech Republic,5,False
+566,Manuel Locatelli,Italy,5,True
+567,Patrice Loko,France,5,False
+568,Gergő Lovrencsics,Hungary,5,True
+569,Ioan Lupescu,Romania,5,False
+570,Harry Maguire,England,5,True
+571,Roy Makaay,Netherlands,5,False
+572,Vyacheslav Malafeev,Russia,5,False
+573,Florent Malouda,France,5,False
+574,Marcos Senna,Spain,5,False
+575,Lukáš Masopust,Czech Republic,5,True
+576,Joris Mathijsen,Netherlands,5,False
+577,Mykola Matvienko,Ukraine,5,True
+578,Kevin Mbabu,Switzerland,5,True
+579,James McClean,Ireland,5,True
+580,Ally McCoist,Scotland,5,False
+581,Stewart McKimmie,Scotland,5,False
+582,Arkadiusz Milik,Poland,5,True
+583,James Milner,England,5,True
+584,Mason Mount,England,5,True
+585,Arnold Mühren,Netherlands,5,False
+586,Rafał Murawski,Poland,5,False
+587,Radja Nainggolan,Belgium,5,True
+588,Phil Neville,England,5,False
+589,Roland Nilsson,Sweden,5,False
+590,Jens Nowotny,Germany,5,False
+591,Christian Nørgaard,Denmark,5,True
+592,Nuno Valente,Portugal,5,False
+593,Viktor Onopko,RussiaCIS,5,False
+594,Pablo Sarabia,Spain,5,True
+595,Michał Pazdan,Poland,5,False
+596,Pedro,Spain,5,True
+597,Gianluca Pessotto,Italy,5,False
+598,Petit,Portugal,5,False
+599,Michel Platini,France,5,False
+600,Yussuf Poulsen,Denmark,5,True
+601,Oleg Protasov,USSR,5,False
+602,Karel Rada,Czech Republic,5,False
+603,Vladislav Radimov,Russia,5,False
+604,Răzvan Raţ,Romania,5,False
+605,Vasiliy Rats,USSR,5,False
+606,Karl-Heinz Riedle,Germany,5,False
+607,Hal Robson-Kanu,Wales,5,False
+608,Rodri,Spain,5,True
+609,Wolfgang Rolff,Germany,5,False
+610,Willy Sagnol,France,5,False
+611,Dimitrios Salpingidis,Greece,5,False
+612,Georgios Samaras,Greece,5,False
+613,Ebbe Sand,Denmark,5,False
+614,Leroy Sané,Germany,5,True
+615,Kenny Sansom,England,5,False
+616,Birkir Sævarsson,Iceland,5,False
+617,Patrik Schick,Czech Republic,5,True
+618,Gordon Schildenfeld,Croatia,5,False
+619,Michael Schjønberg,Denmark,5,False
+620,Alessandro Schöpf,Austria,5,True
+621,Piet Schrijvers,Netherlands,5,False
+622,André Schürrle,Germany,5,False
+623,Sergey Semak,Russia,5,False
+624,Señor,Spain,5,False
+625,Semih Şentürk,Turkey,5,False
+626,Sergi Barjuán,Spain,5,False
+627,Sérgio Conceição,Portugal,5,False
+628,Petr Ševčík,Czech Republic,5,True
+629,Mykola Shaparenko,Ukraine,5,True
+630,Teddy Sheringham,England,5,False
+631,Gylfi Sigurðsson,Iceland,5,True
+632,Ragnar Sigurðsson,Iceland,5,False
+633,Kolbeinn Sigþórsson,Iceland,5,False
+634,Dario Šimić,Croatia,5,False
+635,Milan Škriniar,Slovakia,5,True
+636,Ari Skúlason,Iceland,5,True
+637,Tomáš Souček,Czech Republic,5,True
+638,Brian Steen Nielsen,Denmark,5,False
+639,Taras Stepanenko,Ukraine,5,True
+640,Thomas Strunz,Germany,5,False
+641,Jan Suchopárek,Czech Republic,5,False
+642,Dmitriy Sychev,Russia,5,False
+643,Wojciech Szczęsny,Poland,5,True
+644,Jean Tigana,France,5,False
+645,Kieran Trippier,England,5,True
+646,Tomáš Vaclík,Czech Republic,5,True
+647,Willy van de Kerkhof,Netherlands,5,False
+648,Gerald Vanenburg,Netherlands,5,False
+649,Marco Verratti,Italy,5,True
+650,Johann Vogel,Switzerland,5,False
+651,Johan Vonlanthen,Switzerland,5,False
+652,Zisis Vryzas,Greece,5,False
+653,Ognjen Vukojević,Croatia,5,False
+654,Jon Walters,Ireland,5,False
+655,Danny Ward,Wales,5,True
+656,Daniel Wass,Denmark,5,True
+657,Glenn Whelan,Ireland,5,False
+658,Sergen Yalçin,Turkey,5,False
+659,Roman Yaremchuk,Ukraine,5,True
+660,Ilya Zabarnyi,Ukraine,5,True
+661,Aleksandr Zavarov,USSR,5,False
+662,Jovan Aćimović,Yugoslavia,4,False
+663,Adrien Silva,Portugal,4,True
+664,Fatih Akyel,Turkey,4,False
+665,Flórián Albert,Hungary,4,False
+666,Niclas Alexandersson,Sweden,4,False
+667,Alkorta,Spain,4,False
+668,Marcus Allbäck,Sweden,4,False
+669,Dele Alli,England,4,True
+670,Álvaro,Portugal,4,False
+671,Carlo Ancelotti,Italy,4,False
+672,Henrik Andersen,Denmark,4,False
+673,Jocelyn Angloma,France,4,False
+674,António Sousa,Portugal,4,False
+675,Frank Arnesen,Denmark,4,False
+676,Aljoša Asanović,Croatia,4,False
+677,Emre Aşık,Turkey,4,False
+678,Ludwig Augustinsson,Sweden,4,True
+679,Daniel Bachmann,Austria,4,True
+680,Milan Badelj,Croatia,4,True
+681,Federico Balzaretti,Italy,4,False
+682,Anatoliy Banishevskiy,USSR,4,False
+683,Franco Baresi,Italy,4,False
+684,Jozef Barmoš,CSSR,4,False
+685,Julian Baumgartlinger,Austria,4,False
+686,Christoph Baumgartner,Austria,4,True
+687,Mikkel Beck,Denmark,4,False
+688,Franz Beckenbauer,Germany,4,False
+689,Igor Belanov,USSR,4,False
+690,Miodrag Belodedici,Romania,4,False
+691,Romeo Benetti,Italy,4,False
+692,Bento,Portugal,4,False
+693,Aleksey Berezutskiy,Russia,4,False
+694,Giuseppe Bergomi,Italy,4,False
+695,Bernardo Silva,Portugal,4,True
+696,Jens Bertelsen,Denmark,4,False
+697,Roberto Bettega,Italy,4,False
+698,Oliver Bierhoff,Germany,4,False
+699,Slaven Bilić,Croatia,4,False
+700,Daley Blind,Netherlands,4,True
+701,Zvonimir Boban,Croatia,4,False
+702,Winston Bogarde,Netherlands,4,False
+703,René Bolf,Czech Republic,4,False
+704,Jan Bořil,Czech Republic,4,True
+705,Daniel Borimirov,Bulgaria,4,False
+706,Uli Borowka,Germany,4,False
+707,Paul Bosvelt,Netherlands,4,False
+708,Khalid Boulahrouz,Netherlands,4,False
+709,Tommy Boyd,Scotland,4,False
+710,Robbie Brady,Ireland,4,True
+711,Tomas Brolin,Sweden,4,False
+712,Bruno Fernandes,Portugal,4,True
+713,Okan Buruk,Turkey,4,False
+714,Ricardo Cabanas,Switzerland,4,False
+715,Gary Cahill,England,4,False
+716,Emre Can,Germany,4,True
+717,Craig Cathcart,Northern Ireland,4,False
+718,Franco Causio,Italy,4,False
+719,Cédric,Portugal,4,True
+720,Chalana,Portugal,4,False
+721,Victor Claesson,Sweden,4,True
+722,Séamus Coleman,Ireland,4,True
+723,Fulvio Collovati,Italy,4,False
+724,Julien Cools,Belgium,4,False
+725,Andreas Cornelius,Denmark,4,True
+726,Jordi Cruyff,Netherlands,4,False
+727,Martin Dahlin,Sweden,4,False
+728,Stuart Dallas,Northern Ireland,4,True
+729,Marcus Danielson,Sweden,4,True
+730,Matteo Darmian,Italy,4,True
+731,David Villa,Spain,4,False
+732,Steven Davis,Northern Ireland,4,False
+733,Luigi de Agostini,Italy,4,False
+734,De Gea,Spain,4,False
+735,Frenkie de Jong,Netherlands,4,True
+736,Johan de Kock,Netherlands,4,False
+737,Fernando De Napoli,Italy,4,False
+738,Mattia De Sciglio,Italy,4,True
+739,Stefan de Vrij,Netherlands,4,True
+740,Mathieu Debuchy,France,4,False
+741,Anatoliy Demyanenko,USSR,4,False
+742,Memphis Depay,Netherlands,4,True
+743,Eren Derdiyok,Switzerland,4,False
+744,Luigi Di Biagio,Italy,4,False
+745,Angelo Di Livio,Italy,4,False
+746,Eric Dier,England,4,True
+747,Diogo Jota,Portugal,4,True
+748,Johan Djourou,Switzerland,4,False
+749,Igor Dobrovolskiy,RussiaCIS,4,False
+750,Kasper Dolberg,Denmark,4,True
+751,Thomas Doll,Germany,4,False
+752,Ljubinko Drulović,Yugoslavia,4,False
+753,Denzel Dumfries,Netherlands,4,True
+754,Ján Ďurica,Slovakia,4,False
+755,Blerim Džemaili,Switzerland,4,False
+756,Balázs Dzsudzsák,Hungary,4,True
+757,Miroslav Đukić,Yugoslavia,4,False
+758,Éder,Italy,4,True
+759,Emerson,Italy,4,True
+760,Orlando Engelaar,Netherlands,4,False
+761,Christian Eriksen,Denmark,4,True
+762,Jan Eriksson,Sweden,4,False
+763,Eurico,Portugal,4,False
+764,Jonny Evans,Northern Ireland,4,True
+765,Łukasz Fabiański,Poland,4,True
+766,Riccardo Ferri,Italy,4,False
+767,Attila Fiola,Hungary,4,True
+768,Frasco,Portugal,4,False
+769,Steffen Freund,Germany,4,False
+770,Clemens Fritz,Germany,4,False
+771,Christian Fuchs,Austria,4,False
+772,Kevin Gallacher,Scotland,4,False
+773,Gennaro Gattuso,Italy,4,False
+774,Claudio Gentile,Italy,4,False
+775,Zoltán Gera,Hungary,4,False
+776,Eric Gerets,Belgium,4,False
+777,Giuseppe Giannini,Italy,4,False
+778,Matthias Ginter,Germany,4,True
+779,Denis Glushakov,Russia,4,True
+780,Serge Gnabry,Germany,4,True
+781,Robin Gosens,Germany,4,True
+782,Sergey Gotsmanov,USSR,4,False
+783,Francesco Graziani,Italy,4,False
+784,Fabio Grosso,Italy,4,False
+785,Güiza,Spain,4,False
+786,Richárd Guzmics,Hungary,4,False
+787,Joško Gvardiol,Croatia,4,True
+788,Daniel Gygax,Switzerland,4,False
+789,Kai Havertz,Germany,4,True
+790,Thorgan Hazard,Belgium,4,True
+791,Marek Heinz,Czech Republic,4,False
+792,Hélder,Portugal,4,False
+793,Jeff Hendrick,Ireland,4,True
+794,Matthias Herget,Germany,4,False
+795,Adam Hložek,Czech Republic,4,True
+796,Glenn Hoddle,England,4,False
+797,Uli Hoeneß,Germany,4,False
+798,Wes Hoolahan,Ireland,4,False
+799,Patrik Hrošovský,Slovakia,4,True
+800,Roman Hubník,Czech Republic,4,False
+801,Hugo Almeida,Portugal,4,False
+802,Klaas-Jan Huntelaar,Netherlands,4,False
+803,Eike Immel,Germany,4,False
+804,Klas Ingesson,Sweden,4,False
+805,Filippo Inzaghi,Italy,4,False
+806,Alexander Isak,Sweden,4,True
+807,Yuriy Istomin,USSR,4,False
+808,Valentin Ivanov,USSR,4,False
+809,Marat Izmailov,Russia,4,False
+810,Andreas Jakobsson,Sweden,4,False
+811,Dan James,Wales,4,True
+812,David James,England,4,False
+813,Robert Jarni,Croatia,4,False
+814,Petr Jiráček,Czech Republic,4,False
+815,Martin Jiránek,Czech Republic,4,False
+816,João Pinto,Portugal,4,False
+817,Glen Johnson,England,4,False
+818,Jordão,Portugal,4,False
+819,José Fonte,Portugal,4,True
+820,Juanfran,Spain,4,False
+821,Vladimir Jugović,Yugoslavia,4,False
+822,Pavel Kadeřábek,Czech Republic,4,True
+823,Nihat Kahveci,Turkey,4,False
+824,Saša Kalajdžić,Austria,4,True
+825,Manfred Kaltz,Germany,4,False
+826,Vladimir Kaplichniy,USSR,4,False
+827,Bartosz Kapustka,Poland,4,True
+828,Aleksandr Kerzhakov,Russia,4,False
+829,Dmitriy Kharin,RussiaCIS,4,False
+830,Wim Kieft,Netherlands,4,False
+831,Presnel Kimpembe,France,4,True
+832,Gábor Király,Hungary,4,False
+833,Kees Kist,Netherlands,4,False
+834,Erwin Koeman,Netherlands,4,False
+835,Aleksandr Kokorin,Russia,4,True
+836,Denis Kolodin,Russia,4,False
+837,Matúš Kozáčik,Slovakia,4,False
+838,Ján Kozák,CSSR,4,False
+839,Emil Krafth,Sweden,4,True
+840,Alex Král,Czech Republic,4,True
+841,Ivica Kralj,Yugoslavia,4,False
+842,Michael Krmenčík,Czech Republic,4,True
+843,Bernard Lacombe,France,4,False
+844,Konrad Laimer,Austria,4,True
+845,Stefan Lainer,Austria,4,True
+846,Frank Lampard,England,4,False
+847,Ádám Lang,Hungary,4,True
+848,Martin Laursen,Denmark,4,False
+849,Joleon Lescott,England,4,False
+850,Lima Pereira,Portugal,4,False
+851,Anders Limpar,Sweden,4,False
+852,Gennadiy Litovchenko,USSR,4,False
+853,Dominik Livaković,Croatia,4,True
+854,Vratislav Lokvenc,Czech Republic,4,False
+855,Maceda,Spain,4,False
+856,Krzysztof Mączyński,Poland,4,False
+857,Ludovic Magnin,Switzerland,4,False
+858,Sepp Maier,Germany,4,False
+859,Donyell Malen,Netherlands,4,True
+860,Ruslan Malinovskiy,Ukraine,4,True
+861,Roberto Mancini,Italy,4,False
+862,Ioannis Maniatis,Greece,4,False
+863,Marcos Llorente,Spain,4,True
+864,Kylian Mbappé,France,4,True
+865,Gareth McAuley,Northern Ireland,4,False
+866,James McCarthy,Ireland,4,True
+867,Michael McGovern,Northern Ireland,4,True
+868,Walter Meeuws,Belgium,4,False
+869,Mehmet Aurélio,Turkey,4,False
+870,Mendieta,Spain,4,False
+871,Míchel Salgado,Spain,4,False
+872,Predrag Mijatović,Yugoslavia,4,False
+873,Savo Milošević,Yugoslavia,4,False
+874,Raymond Mommens,Belgium,4,False
+875,Riccardo Montolivo,Italy,4,False
+876,Kieffer Moore,Wales,4,True
+877,Joe Morrell,Wales,4,True
+878,Aleksandr Mostovoy,Russia,4,False
+879,Hansi Müller,Germany,4,False
+880,Vitaliy Mykolenko,Ukraine,4,True
+881,Nélson Oliveira,Portugal,4,True
+882,Václav Němeček,Czech Republic,4,False
+883,Kent Nielsen,Denmark,4,False
+884,Demis Nikolaidis,Greece,4,False
+885,Nemanja Nikolić,Hungary,4,False
+886,Nolito,Spain,4,False
+887,Oliver Norwood,Northern Ireland,4,True
+888,Robin Olsen,Sweden,4,True
+889,Kristoffer Olsson,Sweden,4,True
+890,Kyriakos Papadopoulos,Greece,4,True
+891,Scott Parker,England,4,False
+892,Marco Parolo,Italy,4,False
+893,Paulo Bento,Portugal,4,False
+894,Tomáš Pekhart,Czech Republic,4,True
+895,Graziano Pellè,Italy,4,False
+896,Pep Guardiola,Spain,4,False
+897,Matteo Pessina,Italy,4,True
+898,Bruno Petković,Croatia,4,True
+899,Florentin Petre,Romania,4,False
+900,Mladen Petrić,Croatia,4,False
+901,Torben Piechnik,Denmark,4,False
+902,Václav Pilař,Czech Republic,4,True
+903,Viktor Ponedelnik,USSR,4,False
+904,Christian Poulsen,Denmark,4,False
+905,Sebastian Prödl,Austria,4,False
+906,Robin Quaison,Sweden,4,True
+907,Ole Qvist,Denmark,4,False
+908,Adrien Rabiot,France,4,True
+909,Darren Randolph,Ireland,4,True
+910,Thomas Ravelli,Sweden,4,False
+911,Ante Rebić,Croatia,4,True
+912,Michel Renquin,Belgium,4,False
+913,Connor Roberts,Wales,4,True
+914,Joe Rodon,Wales,4,True
+915,Markus Rosenberg,Sweden,4,False
+916,Bryan Roy,Netherlands,4,False
+917,Rúben Dias,Portugal,4,True
+918,Antonio Rüdiger,Germany,4,True
+919,Ivan Saenko,Russia,4,False
+920,Bukayo Saka,England,4,True
+921,Tuncay Şanlı,Turkey,4,False
+922,Sabri Sarıoğlu,Turkey,4,False
+923,Xaver Schlager,Austria,4,True
+924,Georg Schwarzenbeck,Germany,4,False
+925,Gaetano Scirea,Italy,4,False
+926,Albert Shesternev,USSR,4,False
+927,Mikaël Silvestre,France,4,False
+928,Martin Škrtel,Slovakia,4,False
+929,Chris Smalling,England,4,True
+930,Thomas Sørensen,Denmark,4,False
+931,Leonardo Spinazzola,Italy,4,True
+932,Trevor Steven,England,4,False
+933,Danijel Subašić,Croatia,4,False
+934,Davor Šuker,Croatia,4,False
+935,Marco Tardelli,Italy,4,False
+936,Jonas Thern,Sweden,4,False
+937,Olaf Thon,Germany,4,False
+938,Youri Tielemans,Belgium,4,True
+939,Rafael Tolói,Italy,4,True
+940,Luca Toni,Italy,4,False
+941,Stig Tøfting,Denmark,4,False
+942,Vassilios Tsiartas,Greece,4,False
+943,Viktor Tsygankov,Ukraine,4,True
+944,Anatoliy Tymoshchuk,Ukraine,4,False
+945,Urquiaga,Spain,4,False
+946,Urzáiz,Spain,4,False
+947,Valerón,Spain,4,False
+948,Patrick van Aanholt,Netherlands,4,True
+949,René van de Kerkhof,Netherlands,4,False
+950,François van der Elst,Belgium,4,False
+951,Andy van der Meyde,Netherlands,4,False
+952,Wilfried Van Moer,Belgium,4,False
+953,Raphaël Varane,France,4,True
+954,Ruben Vargas,Switzerland,4,True
+955,Darius Vassell,England,4,False
+956,Gianluca Vialli,Italy,4,False
+957,Vidigal,Portugal,4,False
+958,Ladislav Vízek,CSSR,4,False
+959,Goran Vlaović,Croatia,4,False
+960,Nikola Vlašić,Croatia,4,True
+961,Sam Vokes,Wales,4,True
+962,Šime Vrsaljko,Croatia,4,False
+963,Theo Walcott,England,4,False
+964,Jamie Ward,Northern Ireland,4,False
+965,Conor Washington,Northern Ireland,4,True
+966,Neil Webb,England,4,False
+967,Wout Weghorst,Netherlands,4,True
+968,Danny Welbeck,England,4,True
+969,Raphaël Wicky,Switzerland,4,False
+970,Silvan Widmer,Switzerland,4,True
+971,Georginio Wijnaldum,Netherlands,4,True
+972,Jonny Williams,Wales,4,True
+973,Herbert Wimmer,Germany,4,False
+974,Richard Witschge,Netherlands,4,False
+975,Rob Witschge,Netherlands,4,False
+976,Chris Woods,England,4,False
+977,Lev Yashin,USSR,4,False
+978,Ashley Young,England,4,True
+979,Walter Zenga,Italy,4,False
+980,Piotr Zieliński,Poland,4,True
+981,Steven Zuber,Switzerland,4,True
+982,Ignazio Abate,Italy,3,False
+983,Amir Abrashi,Albania,3,True
+984,Francesco Acerbi,Italy,3,True
+985,Milenko Ačimovič,Slovenia,3,False
+986,Ché Adams,Scotland,3,True
+987,Arijan Ademi,North Macedonia,3,True
+988,Aduriz,Spain,3,False
+989,Daniel Agger,Denmark,3,False
+990,Ansi Agolli,Albania,3,False
+991,Albelda,Spain,3,False
+992,John Aldridge,Ireland,3,False
+993,Dmitriy Alenichev,Russia,3,False
+994,Alexanko,Spain,3,False
+995,Ezgjan Alioski,North Macedonia,3,True
+996,Robert Almer,Austria,3,False
+997,Ioannis Amanatidis,Greece,3,False
+998,Amavisca,Spain,3,False
+999,Guillermo Amor,Spain,3,False
+1000,Ethan Ampadu,Wales,3,True
+1001,Joachim Andersen,Denmark,3,True
+1002,Stephan Andersen,Denmark,3,False
+1003,Florin Andone,Romania,3,True
+1004,André Silva,Portugal,3,True
+1005,Keith Andrews,Ireland,3,False
+1006,Andrinúa,Spain,3,False
+1007,Giancarlo Antognoni,Italy,3,False
+1008,Paulus Arajuuri,Finland,3,True
+1009,Aranzábal,Spain,3,False
+1010,Stuart Armstrong,Scotland,3,True
+1011,Vitālijs Astafjevs,Latvia,3,False
+1012,René Aufhauser,Austria,3,False
+1013,Kaan Ayhan,Turkey,3,True
+1014,Volkan Babacan,Turkey,3,True
+1015,Bakero,Spain,3,False
+1016,Eirik Bakke,Norway,3,False
+1017,Krasimir Balakov,Bulgaria,3,False
+1018,Antonín Barák,Czech Republic,3,True
+1019,Enis Bardhi,North Macedonia,3,True
+1020,Giuseppe Baresi,Italy,3,False
+1021,John Barnes,England,3,False
+1022,Tranquillo Barnetta,Switzerland,3,False
+1023,Michy Batshuayi,Belgium,3,True
+1024,Mehmed Baždarević,Yugoslavia,3,False
+1025,Jan Bednarek,Poland,3,True
+1026,Jude Bellingham,England,3,True
+1027,Bruno Bellone,France,3,False
+1028,Lars Bender,Germany,3,False
+1029,Nicklas Bendtner,Denmark,3,False
+1030,Ferenc Bene,Hungary,3,False
+1031,Pierre Bengtsson,Sweden,3,False
+1032,Christian Benteke,Belgium,3,True
+1033,Dimitar Berbatov,Bulgaria,3,False
+1034,Bartosz Bereszyński,Poland,3,True
+1035,Erik Berg,Sweden,3,False
+1036,André Bergdølmo,Norway,3,False
+1037,Etrit Berisha,Albania,3,True
+1038,Artem Besedin,Ukraine,3,True
+1039,Vladimir Bezsonov,USSR,3,False
+1040,Manfred Binz,Germany,3,False
+1041,Theodór Elmar Bjarnason,Iceland,3,False
+1042,Oļegs Blagonadeždins,Latvia,3,False
+1043,Imants Bleidelis,Latvia,3,False
+1044,Danny Blind,Netherlands,3,False
+1045,Sebastian Boenisch,Poland,3,False
+1046,Basile Boli,France,3,False
+1047,László Bölöni,Romania,3,False
+1048,Pat Bonner,Ireland,3,False
+1049,Artur Boruc,Poland,3,False
+1050,Bosingwa,Portugal,3,False
+1051,Endre Botka,Hungary,3,True
+1052,Bjørn Otto Bragstad,Norway,3,False
+1053,Josip Brekalo,Croatia,3,True
+1054,David Brooks,Wales,3,True
+1055,Dmitriy Bulykin,Russia,3,False
+1056,Tarcisio Burgnich,Italy,3,False
+1057,Craig Burley,Scotland,3,False
+1058,Tomislav Butina,Croatia,3,False
+1059,Butragueño,Spain,3,False
+1060,Vladimir Bystrov,Russia,3,False
+1061,Uğurcan Çakır,Turkey,3,True
+1062,Colin Calderwood,Scotland,3,False
+1063,Rodion Cămătaru,Romania,3,False
+1064,Caminero,Spain,3,False
+1065,Cañizares,Spain,3,False
+1066,Éric Cantona,France,3,False
+1067,Capucho,Portugal,3,False
+1068,John Carew,Norway,3,False
+1069,Carlos Manuel,Portugal,3,False
+1070,Andy Carroll,England,3,True
+1071,Pierluigi Casiraghi,Italy,3,False
+1072,Bernard Casoni,France,3,False
+1073,Aleš Čeh,Slovenia,3,False
+1074,Zeki Çelik,Turkey,3,True
+1075,Servet Çetin,Turkey,3,False
+1076,Andrey Chernyshov,CIS,3,False
+1077,Vlad Chiricheş,Romania,3,True
+1078,José Cholevas,Greece,3,False
+1079,Nico Claesen,Belgium,3,False
+1080,Gaël Clichy,France,3,False
+1081,Răzvan Cociş,Romania,3,False
+1082,Paul Codrea,Romania,3,False
+1083,Søren Colding,Denmark,3,False
+1084,John Collins,Scotland,3,False
+1085,Antonio Conte,Italy,3,False
+1086,Marcel Coraş,Romania,3,False
+1087,Alessandro Costacurta,Italy,3,False
+1088,Grégory Coupet,France,3,False
+1089,Simon Cox,Ireland,3,False
+1090,Bernd Cullmann,Germany,3,False
+1091,Custódio,Portugal,3,False
+1092,Mladen Dabanovič,Slovenia,3,False
+1093,Olivier Dacourt,France,3,False
+1094,Milan Damjanović,Yugoslavia,3,False
+1095,Walter De Greef,Belgium,3,False
+1096,Matthijs de Ligt,Netherlands,3,True
+1097,Marten de Roon,Netherlands,3,True
+1098,Filip De Wilde,Belgium,3,False
+1099,Michel De Wolf,Belgium,3,False
+1100,Eric Deflandre,Belgium,3,False
+1101,Sebastian Deisler,Germany,3,False
+1102,Marco Delvecchio,Italy,3,False
+1103,Merih Demiral,Turkey,3,True
+1104,Volkan Demirel,Turkey,3,False
+1105,Jason Denayer,Belgium,3,True
+1106,Leander Dendoncker,Belgium,3,True
+1107,Igor Denisov,Russia,3,False
+1108,Marko Dević,Ukraine,3,False
+1109,Alessandro Diamanti,Italy,3,False
+1110,Diamantino,Portugal,3,False
+1111,Alou Diarra,France,3,False
+1112,Nicolae Dică,Romania,3,False
+1113,Stole Dimitrievski,North Macedonia,3,True
+1114,Igor Diveev,Russia,3,True
+1115,Angelo Domenghini,Italy,3,False
+1116,Domingos Paciência,Portugal,3,False
+1117,Martin Dúbravka,Slovakia,3,True
+1118,Damien Duff,Ireland,3,False
+1119,Richard Dunne,Ireland,3,False
+1120,Lyndon Dykes,Scotland,3,True
+1121,Alan Dzagoev,Russia,3,False
+1122,Georgi Dzhikiya,Russia,3,True
+1123,Éder,Portugal,3,False
+1124,Erik Edman,Sweden,3,False
+1125,Eduardo,Croatia,3,False
+1126,David Edwards,Wales,3,False
+1127,Dan Eggen,Norway,3,False
+1128,Johnny Ekström,Sweden,3,False
+1129,Eljif Elmas,North Macedonia,3,True
+1130,Eric García,Spain,3,True
+1131,Corry Evans,Northern Ireland,3,True
+1132,Vadim Evseev,Russia,3,False
+1133,Fabián Ruiz,Spain,3,True
+1134,Giacinto Facchetti,Italy,3,False
+1135,Mirsad Fazlagić,Yugoslavia,3,False
+1136,Artem Fedetskiy,Ukraine,3,False
+1137,Marouane Fellaini,Belgium,3,False
+1138,Fernando Gomes,Portugal,3,False
+1139,Fernando Meira,Portugal,3,False
+1140,Alfreð Finnbogason,Iceland,3,True
+1141,Tore André Flo,Norway,3,False
+1142,Phil Foden,England,3,True
+1143,Folha,Portugal,3,False
+1144,Przemysław Frankowski,Poland,3,True
+1145,Alexander Frei,Switzerland,3,False
+1146,Diego Fuser,Italy,3,False
+1147,Miroslav Gajdůšek,CSSR,3,False
+1148,Maik Galakos,Greece,3,False
+1149,Marinko Galič,Slovenia,3,False
+1150,Tony Galvin,Ireland,3,False
+1151,Ionel Ganea,Romania,3,False
+1152,Shay Given,Ireland,3,False
+1153,Goikoetxea,Spain,3,False
+1154,Gökhan Gönül,Turkey,3,False
+1155,Bart Goor,Belgium,3,False
+1156,Leon Goretzka,Germany,3,True
+1157,Richard Gough,Scotland,3,False
+1158,Dejan Govedarica,Yugoslavia,3,False
+1159,Michael Gregoritsch,Austria,3,True
+1160,Dragoş Grigore,Romania,3,True
+1161,Florian Grillitsch,Austria,3,True
+1162,Georges Grün,Belgium,3,False
+1163,Ivan Gudelj,Yugoslavia,3,False
+1164,John Guidetti,Sweden,3,True
+1165,Péter Gulácsi,Hungary,3,True
+1166,İlkay Gündoğan,Germany,3,True
+1167,Oleg Gusev,Ukraine,3,False
+1168,Arie Haan,Netherlands,3,False
+1169,Grant Hanley,Scotland,3,True
+1170,Petter Hansson,Sweden,3,False
+1171,Lukáš Haraslín,Slovakia,3,True
+1172,Owen Hargreaves,England,3,False
+1173,Mark Hateley,England,3,False
+1174,Tayfur Havutçu,Turkey,3,False
+1175,Magnus Hedman,Sweden,3,False
+1176,Colin Hendry,Scotland,3,False
+1177,Emile Heskey,England,3,False
+1178,Ovidiu Hoban,Romania,3,False
+1179,Dragan Holcer,Yugoslavia,3,False
+1180,Ray Houghton,Ireland,3,False
+1181,Hugo Hovenkamp,Netherlands,3,False
+1182,Jes Høgh,Denmark,3,False
+1183,Lukáš Hrádecký,Finland,3,True
+1184,Marian Hristov,Bulgaria,3,False
+1185,Horst Hrubesch,Germany,3,False
+1186,Benjamin Huggel,Switzerland,3,False
+1187,Aaron Hughes,Northern Ireland,3,False
+1188,Chris Hughton,Ireland,3,False
+1189,Elseid Hysaj,Albania,3,True
+1190,Selçuk İnan,Turkey,3,False
+1191,Vedat İnceefe,Turkey,3,False
+1192,Gökhan Inler,Switzerland,3,True
+1193,Ivailo Iordanov,Bulgaria,3,False
+1194,Aleksandrs Isakovs,Latvia,3,False
+1195,Trifon Ivanov,Bulgaria,3,False
+1196,Andreas Ivanschitz,Austria,3,False
+1197,Luka Ivanušec,Croatia,3,True
+1198,Steffen Iversen,Norway,3,False
+1199,Lars Jacobsen,Denmark,3,False
+1200,Jaime Pacheco,Portugal,3,False
+1201,Zoran Janković,Bulgaria,3,False
+1202,David Jarolím,Czech Republic,3,False
+1203,Nikica Jelavić,Croatia,3,False
+1204,Claus Jensen,Denmark,3,False
+1205,Daniel Jensen,Denmark,3,False
+1206,Niclas Jensen,Denmark,3,False
+1207,Jens Jeremies,Germany,3,False
+1208,Nikola Jerkan,Croatia,3,False
+1209,Jesús Navas,Spain,3,True
+1210,Jesús Zamora,Spain,3,False
+1211,Slaviša Jokanović,Yugoslavia,3,False
+1212,Mattias Jonson,Sweden,3,False
+1213,Kamil Jóźwiak,Poland,3,True
+1214,Juanito,Spain,3,False
+1215,Roland Juhász,Hungary,3,False
+1216,Julio Salinas,Spain,3,False
+1217,Nikola Jurčević,Croatia,3,False
+1218,Tamás Kádár,Hungary,3,True
+1219,İrfan Kahveci,Turkey,3,True
+1220,Nikola Kalinić,Croatia,3,True
+1221,Glen Kamara,Finland,3,True
+1222,Gökdeniz Karadeniz,Turkey,3,False
+1223,Kenan Karaman,Turkey,3,True
+1224,Vyacheslav Karavaev,Russia,3,True
+1225,Amir Karič,Slovenia,3,False
+1226,Valeriy Karpin,Russia,3,False
+1227,Andrey Karyaka,Russia,3,False
+1228,Srečko Katanec,Yugoslavia,3,False
+1229,Joni Kauko,Finland,3,True
+1230,Suat Kaya,Turkey,3,False
+1231,Kevin Keegan,England,3,False
+1232,Roman Kienast,Austria,3,False
+1233,Kiko,Spain,3,False
+1234,Andy King,Wales,3,True
+1235,Sergey Kiryakov,RussiaCIS,3,False
+1236,Florian Klein,Austria,3,False
+1237,Michael Klein,Romania,3,False
+1238,Mateusz Klich,Poland,3,True
+1239,Dario Knežević,Croatia,3,False
+1240,Daniel Kolář,Czech Republic,3,False
+1241,Aleksandrs Koļinko,Latvia,3,False
+1242,Slobodan Komljenović,Yugoslavia,3,False
+1243,Ümit Korkmaz,Austria,3,False
+1244,Giorgios Kostikos,Greece,3,False
+1245,Dinos Kouis,Greece,3,False
+1246,Viktor Kovalenko,Ukraine,3,True
+1247,Ladislav Krejčí,Czech Republic,3,True
+1248,Michael Krohn-Dehli,Denmark,3,False
+1249,Jacek Krzynówek,Poland,3,False
+1250,Luboš Kubík,Czech Republic,3,False
+1251,Dmitriy Kuznetsov,CIS,3,False
+1252,Daler Kuzyaev,Russia,3,True
+1253,William Kvist,Denmark,3,False
+1254,Sotirios Kyrgiakos,Greece,3,False
+1255,Dražen Ladić,Croatia,3,False
+1256,David Lafata,Czech Republic,3,False
+1257,Kyle Lafferty,Northern Ireland,3,False
+1258,Juris Laizāns,Latvia,3,False
+1259,Adam Lallana,England,3,True
+1260,Zdravko Lazarov,Bulgaria,3,False
+1261,Yvon Le Roux,France,3,False
+1262,Jerko Leko,Croatia,3,False
+1263,Ermir Lenjani,Albania,3,True
+1264,Yordan Letchkov,Bulgaria,3,False
+1265,Mariusz Lewandowski,Poland,3,False
+1266,Tobias Linderoth,Sweden,3,False
+1267,Spyros Livathinos,Greece,3,False
+1268,Valentins Lobaņovs,Latvia,3,False
+1269,Bogdan Lobonţ,Romania,3,False
+1270,Robin Lod,Finland,3,True
+1271,López,Spain,3,False
+1272,Teddy Lučić,Sweden,3,False
+1273,Wojciech Łobodziński,Poland,3,False
+1274,Yann M'Vila,France,3,True
+1275,Jürgen Macho,Austria,3,False
+1276,Josh Magennis,Northern Ireland,3,True
+1277,Christian Maggio,Italy,3,False
+1278,Pavel Mamaev,Russia,3,False
+1279,Manjarín,Spain,3,False
+1280,Manu Sarabia,Spain,3,False
+1281,Mário Fernandes,Russia,3,True
+1282,David Marshall,Scotland,3,True
+1283,Anthony Martial,France,3,True
+1284,Martín Vázquez,Spain,3,False
+1285,Bruno Martini,France,3,False
+1286,Mërgim Mavraj,Albania,3,False
+1287,Thomas Mavros,Greece,3,False
+1288,Mick McCarthy,Ireland,3,False
+1289,Brian McClair,Scotland,3,False
+1290,John McGinn,Scotland,3,True
+1291,Niall McGinn,Northern Ireland,3,True
+1292,Callum McGregor,Scotland,3,True
+1293,Dave McPherson,Scotland,3,False
+1294,Paul McStay,Scotland,3,False
+1295,Scott McTominay,Scotland,3,True
+1296,Jérémy Ménez,France,3,True
+1297,Chris Mepham,Wales,3,True
+1298,Philippe Mexès,France,3,False
+1299,Míchel,Spain,3,False
+1300,Boris Mihailov,Bulgaria,3,False
+1301,Siniša Mihajlović,Yugoslavia,3,False
+1302,Tobias Mikkelsen,Denmark,3,False
+1303,Artem Milevskiy,Ukraine,3,False
+1304,Željko Milinovič,Slovenia,3,False
+1305,Frank Mill,Germany,3,False
+1306,Luc Millecamps,Belgium,3,False
+1307,Tyrone Mings,England,3,True
+1308,Aleksey Miranchuk,Russia,3,True
+1309,Johan Mjällby,Sweden,3,False
+1310,Mladen Mladenović,Croatia,3,False
+1311,Kevin Moran,Ireland,3,False
+1312,Morientes,Spain,3,False
+1313,Ivica Mornar,Croatia,3,False
+1314,Chris Morris,Ireland,3,False
+1315,Émile Mpenza,Belgium,3,False
+1316,Maksim Mukhin,Russia,3,True
+1317,Vahidin Musemić,Yugoslavia,3,False
+1318,Visar Musliu,North Macedonia,3,True
+1319,Roberto Mussi,Italy,3,False
+1320,Thomas Myhre,Norway,3,False
+1321,Erik Mykland,Norway,3,False
+1322,Dick Nanninga,Netherlands,3,False
+1323,Sergiy Nazarenko,Ukraine,3,False
+1324,Tomáš Necid,Czech Republic,3,True
+1325,Loïc Négo,Hungary,3,True
+1326,Nélson Semedo,Portugal,3,True
+1327,Jaroslav Netolička,CSSR,3,False
+1328,Bănel Nicoliţă,Romania,3,False
+1329,Daniel Niculae,Romania,3,False
+1330,Allan Nielsen,Denmark,3,False
+1331,Boban Nikolov,North Macedonia,3,True
+1332,Luc Nilis,Belgium,3,False
+1333,Sotiris Ninis,Greece,3,True
+1334,Kevin Nisbet,Scotland,3,True
+1335,Džoni Novak,Slovenia,3,False
+1336,Stephen O'Donnell,Scotland,3,True
+1337,Daniel O'Shaughnessy,Finland,3,True
+1338,Ludovic Obraniak,Poland,3,False
+1339,Oceano,Portugal,3,False
+1340,André Ooijer,Netherlands,3,False
+1341,Willi Orbán,Hungary,3,True
+1342,Gabriele Oriali,Italy,3,False
+1343,Milan Osterc,Slovenia,3,False
+1344,Alex Oxlade-Chamberlain,England,3,True
+1345,Magomed Ozdoev,Russia,3,True
+1346,Oğuzhan Özyakup,Turkey,3,True
+1347,Paco Jémez,Spain,3,False
+1348,Marians Pahars,Latvia,3,False
+1349,Carlton Palmer,England,3,False
+1350,Goran Pandev,North Macedonia,3,False
+1351,Ilija Pantelić,Yugoslavia,3,False
+1352,Sokratis Papastathopoulos,Greece,3,True
+1353,Jean-Pierre Papin,France,3,False
+1354,Marco Pascolo,Switzerland,3,False
+1355,Blagoje Paunović,Yugoslavia,3,False
+1356,Benjamin Pavard,France,3,True
+1357,Miran Pavlin,Slovenia,3,False
+1358,Miroslav Pavlović,Yugoslavia,3,False
+1359,Reynald Pedros,France,3,False
+1360,Ergün Penbe,Turkey,3,False
+1361,Luboslav Penev,Bulgaria,3,False
+1362,Christian Pérez,France,3,False
+1363,Damien Perquis,Poland,3,False
+1364,Angelo Peruzzi,Italy,3,False
+1365,Sławomir Peszko,Poland,3,False
+1366,Emmanuel Petit,France,3,False
+1367,Martin Petrov,Bulgaria,3,False
+1368,Ádám Pintér,Hungary,3,False
+1369,Marko Pjaca,Croatia,3,True
+1370,Emanuel Pogatetz,Austria,3,False
+1371,Joel Pohjanpalo,Finland,3,True
+1372,Jan Polák,Czech Republic,3,False
+1373,Eugen Polański,Poland,3,False
+1374,Simon Poulsen,Denmark,3,False
+1375,Andrejs Prohorenkovs,Latvia,3,False
+1376,Robert Prosinečki,Croatia,3,False
+1377,Dado Pršo,Croatia,3,False
+1378,Tymoteusz Puchacz,Poland,3,True
+1379,Teemu Pukki,Finland,3,True
+1380,Yvan Quentin,Switzerland,3,False
+1381,Florin Răducioiu,Romania,3,False
+1382,Rafa Silva,Portugal,3,True
+1383,Jukka Raitala,Finland,3,True
+1384,Yaroslav Rakitskiy,Ukraine,3,True
+1385,Milan Rapaić,Croatia,3,False
+1386,Raúl Bravo,Spain,3,False
+1387,Mircea Rednic,Romania,3,False
+1388,Johnny Rep,Netherlands,3,False
+1389,Tomáš Řepka,Czech Republic,3,False
+1390,Jan Rezek,Czech Republic,3,False
+1391,Marc Rieper,Denmark,3,False
+1392,Paulo Rink,Germany,3,False
+1393,Stefan Ristovski,North Macedonia,3,True
+1394,Andy Robertson,Scotland,3,True
+1395,Bryan Robson,England,3,False
+1396,Alain Roche,France,3,False
+1397,Roger,Poland,3,False
+1398,Rolando,Portugal,3,False
+1399,Danny Rose,England,3,False
+1400,Odise Roshi,Albania,3,True
+1401,Đovani Roso,Croatia,3,False
+1402,Rubén Baraja,Spain,3,False
+1403,Andrejs Rubins,Latvia,3,False
+1404,Mladen Rudonja,Slovenia,3,False
+1405,Rui Jorge,Portugal,3,False
+1406,Armando Sadiku,Albania,3,True
+1407,Marek Saganowski,Poland,3,False
+1408,Roland Sallai,Hungary,3,True
+1409,Salva,Spain,3,False
+1410,Saffet Sancaklı,Turkey,3,False
+1411,Sanchís,Spain,3,False
+1412,Jadon Sancho,England,3,True
+1413,Cristian Săpunaru,Romania,3,True
+1414,Ľubomír Šatka,Slovakia,3,True
+1415,Jürgen Säumel,Austria,3,False
+1416,Saura,Spain,3,False
+1417,Niša Saveljić,Yugoslavia,3,False
+1418,András Schäfer,Hungary,3,True
+1419,Bernd Schneider,Germany,3,False
+1420,Rasmus Schüller,Finland,3,True
+1421,Stefan Schwarz,Sweden,3,False
+1422,Enzo Scifo,Belgium,3,False
+1423,Secretário,Portugal,3,False
+1424,Yevgen Selin,Ukraine,3,True
+1425,Tibor Selymes,Romania,3,False
+1426,Philippe Senderos,Switzerland,3,False
+1427,Dmitriy Sennikov,Russia,3,False
+1428,Ciriaco Sforza,Switzerland,3,False
+1429,Kevin Sheedy,Ireland,3,False
+1430,Andriy Shevchenko,Ukraine,3,False
+1431,Peter Shilton,England,3,False
+1432,Michail Sifakis,Greece,3,False
+1433,Libor Sionko,Czech Republic,3,False
+1434,Didier Six,France,3,False
+1435,Ebi Smolarek,Poland,3,False
+1436,Igor Smolnikov,Russia,3,False
+1437,Fedor Smolov,Russia,3,True
+1438,Tomo Šokota,Croatia,3,False
+1439,Zvonimir Soldo,Croatia,3,False
+1440,Ole Gunnar Solskjær,Norway,3,False
+1441,Çağlar Söyüncü,Turkey,3,True
+1442,John Spencer,Scotland,3,False
+1443,Christoph Spycher,Switzerland,3,False
+1444,Pavel Srníček,Czech Republic,3,False
+1445,Sean St Ledger,Ireland,3,False
+1446,Lorenzo Staelens,Belgium,3,False
+1447,Bogdan Stancu,Romania,3,False
+1448,Mario Stanić,Croatia,3,False
+1449,Frank Stapleton,Ireland,3,False
+1450,Costică Ștefănescu,Romania,3,False
+1451,Igors Stepanovs,Latvia,3,False
+1452,Gary Stevens,England,3,False
+1453,Zoltán Stieber,Hungary,3,True
+1454,Jörg Stiel,Switzerland,3,False
+1455,Igor Štimac,Croatia,3,False
+1456,Hristo Stoichkov,Bulgaria,3,False
+1457,Nenad Stojković,Yugoslavia,3,False
+1458,Steve Stone,England,3,False
+1459,Fredrik Stoor,Sweden,3,False
+1460,Martin Stranzl,Austria,3,False
+1461,Branko Strupar,Belgium,3,False
+1462,Stefano Sturaro,Italy,3,True
+1463,Daniel Sturridge,England,3,False
+1464,Josef Šural,Czech Republic,3,False
+1465,Safet Sušić,Yugoslavia,3,False
+1466,Dušan Švento,Slovakia,3,False
+1467,Karol Świderski,Poland,3,True
+1468,Attila Szalai,Hungary,3,True
+1469,Gabriel Tamaş,Romania,3,False
+1470,Ciprian Tătăruşanu,Romania,3,True
+1471,Tavares,Portugal,3,False
+1472,Omari Tetradze,Russia,3,False
+1473,Phil Thompson,England,3,False
+1474,Claus Thomsen,Denmark,3,False
+1475,Jurriën Timber,Netherlands,3,True
+1476,Joona Toivio,Finland,3,True
+1477,Corentin Tolisso,France,3,True
+1478,Tomás,Spain,3,False
+1479,Dmitriy Torbinskiy,Russia,3,False
+1480,Gabriel Torje,Romania,3,True
+1481,Jérémy Toulalan,France,3,False
+1482,Aleksandar Trajkovski,North Macedonia,3,True
+1483,Ivan Tričkovski,North Macedonia,3,True
+1484,Dobrivoje Trivić,Yugoslavia,3,False
+1485,Ilia Tsymbalar,Russia,3,False
+1486,Kubilay Türkyilmaz,Switzerland,3,False
+1487,Przemysław Tytoń,Poland,3,True
+1488,Tzanko Tzvetanov,Bulgaria,3,False
+1489,Samuel Umtiti,France,3,True
+1490,Cengiz Ünder,Turkey,3,True
+1491,Nicolae Ungureanu,Romania,3,False
+1492,Jere Uronen,Finland,3,True
+1493,Joos Valgaeren,Belgium,3,False
+1494,John van 't Schip,Netherlands,3,False
+1495,Michel van de Korput,Netherlands,3,False
+1496,Gregory van der Wiel,Netherlands,3,False
+1497,Nico Van Kerckhoven,Belgium,3,False
+1498,Yves Vanderhaeghe,Belgium,3,False
+1499,Jamie Vardy,England,3,True
+1500,Varela,Portugal,3,False
+1501,Ramon Vega,Switzerland,3,False
+1502,Darko Velkovski,North Macedonia,3,True
+1503,Stylianos Venetidis,Greece,3,False
+1504,Frank Vercauteren,Belgium,3,False
+1505,Gert Verheyen,Belgium,3,False
+1506,René Verheyen,Belgium,3,False
+1507,Māris Verpakovskis,Latvia,3,False
+1508,Vicente,Spain,3,False
+1509,Vieirinha,Portugal,3,True
+1510,Christian Vieri,Italy,3,False
+1511,Stanislav Vlček,Czech Republic,3,False
+1512,Zlatko Vujović,Yugoslavia,3,False
+1513,Matěj Vydra,Czech Republic,3,True
+1514,Des Walker,England,3,False
+1515,Dave Watson,England,3,False
+1516,Timo Werner,Germany,3,True
+1517,Sander Westerveld,Netherlands,3,False
+1518,Ronnie Whelan,Ireland,3,False
+1519,Ben Wijnstekers,Netherlands,3,False
+1520,Ray Wilkins,England,3,False
+1521,Jetro Willems,Netherlands,3,True
+1522,Neco Williams,Wales,3,True
+1523,Marc Wilmots,Belgium,3,False
+1524,Jack Wilshere,England,3,False
+1525,Harry Wilson,Wales,3,True
+1526,Dennis Wise,England,3,False
+1527,Tony Woodcock,England,3,False
+1528,Christian Wörns,Germany,3,False
+1529,Murat Yakin,Switzerland,3,False
+1530,Zlatko Yankov,Bulgaria,3,False
+1531,Yusuf Yazıcı,Turkey,3,True
+1532,Okay Yokuşlu,Turkey,3,True
+1533,Zlatko Zahovič,Slovenia,3,False
+1534,Velimir Zajec,Yugoslavia,3,False
+1535,Gökhan Zan,Turkey,3,False
+1536,Simone Zaza,Italy,3,False
+1537,Zdravko Zdravkov,Bulgaria,3,False
+1538,Mihails Zemļinskis,Latvia,3,False
+1539,Michał Żewłakow,Poland,3,False
+1540,Niki Zimling,Denmark,3,False
+1541,Roman Zobnin,Russia,3,True
+1542,Gianfranco Zola,Italy,3,False
+1543,Roman Zozulya,Ukraine,3,False
+1544,Abel Xavier,Portugal,2,False
+1545,Éric Abidal,France,2,False
+1546,Valentin Afonin,USSR,2,False
+1547,Arlind Ajeti,Albania,2,True
+1548,Nathan Aké,Netherlands,2,True
+1549,Evgeniy Aldonin,Russia,2,False
+1550,Denis Alibec,Romania,2,True
+1551,Álvaro Negredo,Spain,2,True
+1552,Amancio,Spain,2,False
+1553,Pietro Anastasi,Italy,2,False
+1554,Nikos Anastopoulos,Greece,2,False
+1555,Anders Andersson,Sweden,2,False
+1556,Viktor Anichkin,USSR,2,False
+1557,Paraskevas Antzas,Greece,2,False
+1558,Luigi Apolloni,Italy,2,False
+1559,Alberto Aquilani,Italy,2,False
+1560,Christos Ardizoglou,Greece,2,False
+1561,Asensi,Spain,2,False
+1562,Jacek Bąk,Poland,2,False
+1563,László Bálint,Hungary,2,False
+1564,Gordon Banks,England,2,False
+1565,Dmitry Barinov,Russia,2,True
+1566,David Batty,England,2,False
+1567,Frank Baumann,Germany,2,False
+1568,Anatoly Baydachniy,USSR,2,False
+1569,Peter Beardsley,England,2,False
+1570,Erich Beer,Germany,2,False
+1571,Belsué,Spain,2,False
+1572,Hatem Ben Arfa,France,2,False
+1573,Diego Benaglio,Switzerland,2,False
+1574,László Bénes,Slovakia,2,True
+1575,Steven Berghuis,Netherlands,2,True
+1576,Carl Bertelsen,Denmark,2,False
+1577,Beto,Portugal,2,False
+1578,Morten Bisgaard,Denmark,2,False
+1579,Nenad Bjelica,Croatia,2,False
+1580,Stig Inge Bjørnebye,Norway,2,False
+1581,Dániel Böde,Hungary,2,True
+1582,Rainer Bonhof,Germany,2,False
+1583,Christophe Bonvin,Switzerland,2,False
+1584,Scott Booth,Scotland,2,False
+1585,Uğur Boral,Turkey,2,False
+1586,Tim Borowski,Germany,2,False
+1587,John Bosman,Netherlands,2,False
+1588,Jean-Alain Boumsong,France,2,False
+1589,Dedryck Boyata,Belgium,2,True
+1590,Kasper Bøgelund,Denmark,2,False
+1591,Paul Breitner,Germany,2,False
+1592,Trevor Brooking,England,2,False
+1593,Paweł Brożek,Poland,2,False
+1594,Bruno Soriano,Spain,2,False
+1595,Kenneth Brylle,Denmark,2,False
+1596,Titus Buberník,CSSR,2,False
+1597,Vlastimil Bubník,CSSR,2,False
+1598,Valentin Bubukin,USSR,2,False
+1599,Aleksey Bugaev,Russia,2,False
+1600,Ivan Buljan,Yugoslavia,2,False
+1601,Bogdan Butko,Ukraine,2,True
+1602,Anatoliy Byshovets,USSR,2,False
+1603,Antonio Cabrini,Italy,2,False
+1604,Cadete,Portugal,2,False
+1605,Duje Ćaleta-Car,Croatia,2,True
+1606,Calleja,Spain,2,False
+1607,Dominic Calvert-Lewin,England,2,True
+1608,Lorik Cana,Albania,2,False
+1609,Vincent Candela,France,2,False
+1610,Antonio Candreva,Italy,2,True
+1611,Ján Čapkovič,CSSR,2,False
+1612,Amedeo Carboni,Italy,2,False
+1613,Tony Cascarino,Ireland,2,False
+1614,Ernesto Castano,Italy,2,False
+1615,Fabio Celestini,Switzerland,2,False
+1616,Recep Çetin,Turkey,2,False
+1617,Nacer Chadli,Belgium,2,True
+1618,Konstantinos Chalkias,Greece,2,False
+1619,Bobby Charlton,England,2,False
+1620,Stanislav Cherchesov,Russia,2,False
+1621,Enrico Chiesa,Italy,2,False
+1622,Alexandru Chipciu,Romania,2,True
+1623,Igor Chislenko,USSR,2,False
+1624,Givi Chokheli,USSR,2,False
+1625,Bent Christensen,Denmark,2,False
+1626,Claus Christiansen,Denmark,2,False
+1627,Simon Church,Wales,2,False
+1628,Darko Churlinov,North Macedonia,2,True
+1629,Liviu Ciobotariu,Romania,2,False
+1630,Ciaran Clark,Ireland,2,True
+1631,Ray Clemence,England,2,False
+1632,Lei Clijsters,Belgium,2,False
+1633,Ludo Coeck,Belgium,2,False
+1634,James Collins,Wales,2,False
+1635,Alexandre Comisetti,Switzerland,2,False
+1636,Steve Coppell,England,2,False
+1637,Boro Cvetković,Yugoslavia,2,False
+1638,Tony Daley,England,2,False
+1639,Dani,Spain,2,False
+1640,John Danielsen,Denmark,2,False
+1641,Ümit Davala,Turkey,2,False
+1642,Luuk de Jong,Netherlands,2,True
+1643,Ousmane Dembélé,France,2,True
+1644,Halil Dervişoğlu,Turkey,2,True
+1645,Roberto Di Matteo,Italy,2,False
+1646,Lucas Digne,France,2,True
+1647,Velizar Dimitrov,Bulgaria,2,False
+1648,Diogo Dalot,Portugal,2,True
+1649,Karol Dobiaš,CSSR,2,False
+1650,Jean Dockx,Belgium,2,False
+1651,Jérémy Doku,Belgium,2,True
+1652,Milan Dolinský,CSSR,2,False
+1653,Leon Dolmans,Belgium,2,False
+1654,Kevin Doyle,Ireland,2,False
+1655,Marin Dragnea,Romania,2,False
+1656,Radek Drulák,Czech Republic,2,False
+1657,Shane Duffy,Ireland,2,True
+1658,Antal Dunai,Hungary,2,False
+1659,Jean-Philippe Durand,France,2,False
+1660,Vladimir Durković,Yugoslavia,2,False
+1661,Jimmy Durmaz,Sweden,2,True
+1662,Revaz Dzodzuashvili,USSR,2,False
+1663,Goran Đorović,Yugoslavia,2,False
+1664,Ákos Elek,Hungary,2,False
+1665,Eliseu,Portugal,2,False
+1666,Rasmus Elm,Sweden,2,False
+1667,Lars Elstrup,Denmark,2,False
+1668,Mevlüt Erdinç,Turkey,2,False
+1669,John Eriksen,Denmark,2,False
+1670,Caner Erkin,Turkey,2,True
+1671,Gennadiy Evryuzhikhin,USSR,2,False
+1672,Tibor Fábián,Hungary,2,False
+1673,Christian Fassnacht,Switzerland,2,True
+1674,Máté Fenyvesi,Hungary,2,False
+1675,Ferran Olivella,Spain,2,False
+1676,Jean-Marc Ferreri,France,2,False
+1677,Giorgio Ferrini,Italy,2,False
+1678,Heinz Flohe,Germany,2,False
+1679,Giorgios Foiros,Greece,2,False
+1680,Marcus Forss,Finland,2,True
+1681,Kostas Fortounis,Greece,2,True
+1682,Georgios Fotakis,Greece,2,False
+1683,Robbie Fowler,England,2,False
+1684,Fran,Spain,2,False
+1685,Francisco,Spain,2,False
+1686,Torben Frank,Denmark,2,False
+1687,Ryan Fraser,Scotland,2,True
+1688,Milan Fukal,Czech Republic,2,False
+1689,Fusté,Spain,2,False
+1690,Romulus Gabor,Romania,2,False
+1691,Petr Gabriel,Czech Republic,2,False
+1692,Milan Galić,Yugoslavia,2,False
+1693,György Garics,Austria,2,False
+1694,Denys Garmash,Ukraine,2,True
+1695,István Géczi,Hungary,2,False
+1696,Ruud Geels,Netherlands,2,False
+1697,Bernard Genghini,France,2,False
+1698,Sebastian Giovinco,Italy,2,False
+1699,Dorin Goian,Romania,2,False
+1700,Paweł Golański,Poland,2,False
+1701,Bafétimbi Gomis,France,2,True
+1702,Sidney Govou,France,2,False
+1703,Marco Grassi,Switzerland,2,False
+1704,Ryan Gravenberch,Netherlands,2,True
+1705,Ján Greguš,Slovakia,2,True
+1706,Aristide Guarneri,Italy,2,False
+1707,Eiður Guðjohnsen,Iceland,2,False
+1708,Guerrero,Spain,2,False
+1709,Rolan Gusev,Russia,2,False
+1710,Norbert Gyömbér,Slovakia,2,True
+1711,Bernt Haas,Switzerland,2,False
+1712,Sulejman Halilović,Yugoslavia,2,False
+1713,Bent Hansen,Denmark,2,False
+1714,Kaj Hansen,Denmark,2,False
+1715,Vegard Heggem,Norway,2,False
+1716,Marc Hendrikx,Belgium,2,False
+1717,Lucas Hernández,France,2,True
+1718,François Heutte,France,2,False
+1719,Georges Heylens,Belgium,2,False
+1720,Jupp Heynckes,Germany,2,False
+1721,Peter Hoekstra,Netherlands,2,False
+1722,Bernd Hölzenbein,Germany,2,False
+1723,Horst-Dieter Höttges,Germany,2,False
+1724,Marc Hottiger,Switzerland,2,False
+1725,Jakub Hromada,Slovakia,2,True
+1726,Petar Hubchev,Bulgaria,2,False
+1727,Roger Hunt,England,2,False
+1728,Norman Hunter,England,2,False
+1729,Sverrir Ingason,Iceland,2,True
+1730,Gino Iorgulescu,Romania,2,False
+1731,Kostas Iosifidis,Greece,2,False
+1732,Iríbar,Spain,2,False
+1733,Vladimir Ivanov,Bulgaria,2,False
+1734,Carsten Jancker,Germany,2,False
+1735,Marc Janko,Austria,2,False
+1736,Wim Jansen,Netherlands,2,False
+1737,Sébastien Jeanneret,Switzerland,2,False
+1738,Fredrik Jensen,Finland,2,True
+1739,Drazan Jerković,Yugoslavia,2,False
+1740,Jure Jerković,Yugoslavia,2,False
+1741,João Palhinha,Portugal,2,True
+1742,Joaquín,Spain,2,False
+1743,Juanito,Spain,2,False
+1744,István Juhász,Hungary,2,False
+1745,Péter Juhász,Hungary,2,False
+1746,Antonio Juliano,Italy,2,False
+1747,Josip Juranović,Croatia,2,True
+1748,Fahrudin Jusufi,Yugoslavia,2,False
+1749,Tolunay Kafkas,Turkey,2,False
+1750,Anthimos Kapsis,Greece,2,False
+1751,Josip Katalinski,Yugoslavia,2,False
+1752,Ray Kennedy,England,2,False
+1753,Richard Keogh,Ireland,2,True
+1754,Mateja Kežman,Yugoslavia,2,False
+1755,Dmitriy Khokhlov,Russia,2,False
+1756,Murtaz Khurtsilava,USSR,2,False
+1757,Galimzyan Khusainov,USSR,2,False
+1758,Ledley King,England,2,False
+1759,Rosen Kirilov,Bulgaria,2,False
+1760,Ulf Kirsten,Germany,2,False
+1761,Radostin Kishishev,Bulgaria,2,False
+1762,Ivan Klasnić,Croatia,2,False
+1763,Aleksander Knavs,Slovenia,2,False
+1764,Marcel Koller,Switzerland,2,False
+1765,Viktor Kolotov,USSR,2,False
+1766,Anatoliy Konkov,USSR,2,False
+1767,Vassilios Konstantinou,Greece,2,False
+1768,Bert Konterman,Netherlands,2,False
+1769,Martin Koscelník,Slovakia,2,True
+1770,Emil Kostadinov,Bulgaria,2,False
+1771,Tihomir Kostadinov,North Macedonia,2,True
+1772,Bora Kostić,Yugoslavia,2,False
+1773,Darko Kovačević,Yugoslavia,2,False
+1774,Yuriy Kovtun,Russia,2,False
+1775,Kacper Kozłowski,Poland,2,True
+1776,Erwin Kremers,Germany,2,False
+1777,Anatoliy Krutikov,USSR,2,False
+1778,Sergiy Kryvtsov,Ukraine,2,True
+1779,Lajos Kü,Hungary,2,False
+1780,Burim Kukeli,Albania,2,False
+1781,Dejan Kulusevski,Sweden,2,True
+1782,Giannis Kyrastas,Greece,2,False
+1783,Brian Labone,England,2,False
+1784,Marius Lăcătuş,Romania,2,False
+1785,Vassilios Lakis,Greece,2,False
+1786,Raoul Lambert,Belgium,2,False
+1787,Paul Lambrichts,Belgium,2,False
+1788,Michael Lang,Switzerland,2,True
+1789,Lapetra,Spain,2,False
+1790,Birger Larsen,Denmark,2,False
+1791,John Lauridsen,Denmark,2,False
+1792,Christoph Leitgeb,Austria,2,False
+1793,Aleksandr Lenev,USSR,2,False
+1794,Oscar Lewicki,Sweden,2,True
+1795,Nikos Liberopoulos,Greece,2,False
+1796,Verner Lička,CSSR,2,False
+1797,Philipp Lienhart,Austria,2,True
+1798,Andi Lila,Albania,2,False
+1799,Karol Linetty,Poland,2,True
+1800,Thomas Linke,Germany,2,False
+1801,Roland Linz,Austria,2,False
+1802,Gennadiy Logofet,USSR,2,False
+1803,Dejan Lovren,Croatia,2,True
+1804,Luis Enrique,Spain,2,False
+1805,Luis Suárez,Spain,2,False
+1806,Silviu Lung,Romania,2,False
+1807,Ole Madsen,Denmark,2,False
+1808,Felix Magath,Germany,2,False
+1809,Evgeniy Makarenko,Ukraine,2,True
+1810,Grigoris Makos,Greece,2,False
+1811,Eduard Malofeev,USSR,2,False
+1812,Maurice Malpas,Scotland,2,False
+1813,Hami Mandıralı,Turkey,2,False
+1814,Jean-Jaques Marcel,France,2,False
+1815,Marcelino,Spain,2,False
+1816,Paul Mariner,England,2,False
+1817,Marlos,Ukraine,2,False
+1818,Marvin Martin,France,2,False
+1819,Anatoliy Maslenkin,USSR,2,False
+1820,Josef Masopust,CSSR,2,False
+1821,Marek Matějovský,Czech Republic,2,True
+1822,Marco Materazzi,Italy,2,False
+1823,Sandro Mazzola,Italy,2,False
+1824,Terry McDermott,England,2,False
+1825,Paul McGrath,Ireland,2,False
+1826,Tosh McKinlay,Scotland,2,False
+1827,Paddy McNair,Northern Ireland,2,True
+1828,Norbert Meier,Germany,2,False
+1829,Ledian Memushaj,Albania,2,False
+1830,Umut Meraş,Turkey,2,True
+1831,Paul Merson,England,2,False
+1832,Mikhail Meskhi,USSR,2,False
+1833,Kálmán Mészöly,Hungary,2,False
+1834,Tümer Metin,Turkey,2,False
+1835,Slava Metreveli,USSR,2,False
+1836,Adrian Mierzejewski,Poland,2,False
+1837,Migueli,Spain,2,False
+1838,Taras Mikhalik,Ukraine,2,False
+1839,Darko Milanič,Slovenia,2,False
+1840,Håkan Mild,Sweden,2,False
+1841,Branko Miljuš,Yugoslavia,2,False
+1842,Miquel Soler,Spain,2,False
+1843,Jakub Moder,Poland,2,True
+1844,Jozef Móder,CSSR,2,False
+1845,Vincenzo Montella,Italy,2,False
+1846,Bobby Moore,England,2,False
+1847,Emre Mor,Turkey,2,True
+1848,Eduard Mudrik,USSR,2,False
+1849,Mert Müldür,Turkey,2,True
+1850,Dieter Müller,Germany,2,False
+1851,Gerd Müller,Germany,2,False
+1852,Munitis,Spain,2,False
+1853,Daryl Murphy,Ireland,2,False
+1854,Jamal Musiala,Germany,2,True
+1855,Shkodran Mustafi,Germany,2,False
+1856,Dražen Mužinić,Yugoslavia,2,False
+1857,Nadal,Spain,2,False
+1858,Albert Nađ,Yugoslavia,2,False
+1859,Phil Neal,England,2,False
+1860,Adam Nemec,Slovakia,2,True
+1861,Krisztián Németh,Hungary,2,True
+1862,Nené,Portugal,2,False
+1863,Igor Netto,USSR,2,False
+1864,Günter Netzer,Germany,2,False
+1865,Roman Neustädter,Russia,2,True
+1866,Pat Nevin,Scotland,2,False
+1867,Marius Niculae,Romania,2,False
+1868,Erling Nielsen,Denmark,2,False
+1869,Leif Nielsen,Denmark,2,False
+1870,Yuriy Nikiforov,Russia,2,False
+1871,Antonio Nocerino,Italy,2,False
+1872,Ladislav Novák,CSSR,2,False
+1873,Arthur Numan,Netherlands,2,False
+1874,Branko Oblak,Yugoslavia,2,False
+1875,Jesper Olsen,Denmark,2,False
+1876,Jonas Olsson,Sweden,2,False
+1877,Vladimir Onishchenko,USSR,2,False
+1878,Divock Origi,Belgium,2,True
+1879,Yksel Osmanovski,Sweden,2,False
+1880,Sergey Ovchinnikov,Russia,2,False
+1881,Miklós Páncsics,Hungary,2,False
+1882,Dimitrios Papadopoulos,Greece,2,False
+1883,Mario Pašalić,Croatia,2,True
+1884,Viktor Pasulko,USSR,2,False
+1885,Paulinho Santos,Portugal,2,False
+1886,David Pavelka,Czech Republic,2,True
+1887,Dubravko Pavličić,Croatia,2,False
+1888,Predrag Pažin,Bulgaria,2,False
+1889,Viktor Pečovský,Slovakia,2,False
+1890,Georgi Peev,Bulgaria,2,False
+1891,Pereda,Spain,2,False
+1892,Željko Perušić,Yugoslavia,2,False
+1893,Martin Peters,England,2,False
+1894,Ivaylo Petkov,Bulgaria,2,False
+1895,Milen Petkov,Bulgaria,2,False
+1896,Ilija Petković,Yugoslavia,2,False
+1897,Stilian Petrov,Bulgaria,2,False
+1898,Ognjen Petrović,Yugoslavia,2,False
+1899,Jörgen Pettersson,Sweden,2,False
+1900,Mihai Pintilii,Romania,2,False
+1901,Christian Piot,Belgium,2,False
+1902,Ján Pivarník,CSSR,2,False
+1903,Juan Pizzi,Spain,2,False
+1904,Odilon Polleunis,Belgium,2,False
+1905,Adrian Popa,Romania,2,False
+1906,Danilo Popivoda,Yugoslavia,2,False
+1907,Ján Popluhár,CSSR,2,False
+1908,Jakob Poulsen,Denmark,2,False
+1909,Dennis Praet,Belgium,2,True
+1910,Pierino Prati,Italy,2,False
+1911,Andrei Prepeliță,Romania,2,False
+1912,Tamás Priskin,Hungary,2,False
+1913,Daniel Prodan,Romania,2,False
+1914,Quincy Promes,Netherlands,2,True
+1915,Yuriy Pshenichnikov,USSR,2,False
+1916,Quini,Spain,2,False
+1917,Ljubomir Radanović,Yugoslavia,2,False
+1918,Mirel Rădoi,Romania,2,False
+1919,František Rajtoral,Czech Republic,2,False
+1920,Ole Rasmussen,Denmark,2,False
+1921,Raúl Albiol,Spain,2,True
+1922,Fabrizio Ravanelli,Italy,2,False
+1923,Marko Rehmer,Germany,2,False
+1924,Rob Rensenbrink,Netherlands,2,False
+1925,Marco Reus,Germany,2,True
+1926,Rivilla,Spain,2,False
+1927,Dominique Rocheteau,France,2,False
+1928,Bruno Rodzik,France,2,False
+1929,Simon Rolfes,Germany,2,False
+1930,Laurenţiu Roşu,Romania,2,False
+1931,Ruslan Rotan,Ukraine,2,False
+1932,Evgeniy Rudakov,USSR,2,False
+1933,Maciej Rybus,Poland,2,True
+1934,Matvey Safonov,Russia,2,True
+1935,František Šafránek,CSSR,2,False
+1936,Louis Saha,France,2,False
+1937,Olcay Şahan,Turkey,2,False
+1938,Satrústegui,Spain,2,False
+1939,Franck Sauzée,France,2,False
+1940,Szabolcs Schön,Hungary,2,True
+1941,Lasse Schöne,Denmark,2,True
+1942,Viliam Schrojf,CSSR,2,False
+1943,Bernd Schuster,Germany,2,False
+1944,Dragoslav Šekularac,Yugoslavia,2,False
+1945,Yevhen Seleznyov,Ukraine,2,False
+1946,Léon Semmeling,Belgium,2,False
+1947,Volkan Şen,Turkey,2,False
+1948,Sérgio Oliveira,Portugal,2,True
+1949,Miloš Šestić,Yugoslavia,2,False
+1950,Igor Shalimov,RussiaCIS,2,False
+1951,Roman Sharonov,Russia,2,False
+1952,Oleg Shatov,Russia,2,False
+1953,Georgiy Shchennikov,Russia,2,False
+1954,Vyacheslav Shevchuk,Ukraine,2,False
+1955,Viktor Shustikov,USSR,2,False
+1956,Zoran Simović,Yugoslavia,2,False
+1957,Igor Simutenkov,Russia,2,False
+1958,Andy Sinton,England,2,False
+1959,Ferenc Sipos,Hungary,2,False
+1960,Salvatore Sirigu,Italy,2,True
+1961,Bent Skammelsrud,Norway,2,False
+1962,Milan Škoda,Czech Republic,2,True
+1963,Andreas Skov Olsen,Denmark,2,True
+1964,Aleksey Smertin,Russia,2,False
+1965,Aleksandr Sobolev,Russia,2,True
+1966,Djibril Sow,Switzerland,2,True
+1967,Ole Sørensen,Denmark,2,False
+1968,Tim Sparv,Finland,2,False
+1969,František Štambachr,CSSR,2,False
+1970,Nicolae Stanciu,Romania,2,True
+1971,Dejan Stanković,Yugoslavia,2,False
+1972,Jovan Stanković,Yugoslavia,2,False
+1973,Huub Stevens,Netherlands,2,False
+1974,Michel Stievenard,France,2,False
+1975,Ilian Stoyanov,Bulgaria,2,False
+1976,Roar Strand,Norway,2,False
+1977,Tengiz Sulakvelidze,USSR,2,False
+1978,Ivo Šurjak,Yugoslavia,2,False
+1979,Tomáš Suslov,Slovakia,2,True
+1980,Wim Suurbier,Netherlands,2,False
+1981,Magnus Svensson,Sweden,2,False
+1982,Antal Szentmihályi,Hungary,2,False
+1983,Tendillo,Spain,2,False
+1984,Christos Terzanidis,Greece,2,False
+1985,Frans Thijssen,Netherlands,2,False
+1986,Jean Thissen,Belgium,2,False
+1987,Kjeld Thorst,Denmark,2,False
+1988,Aurel Ţicleanu,Romania,2,False
+1989,Kieran Tierney,Scotland,2,True
+1990,Ola Toivonen,Sweden,2,False
+1991,Cenk Tosun,Turkey,2,True
+1992,Arnór Traustason,Iceland,2,True
+1993,Vladimir Troshkin,USSR,2,False
+1994,Akhrik Tsveiba,CIS,2,False
+1995,Igor Tudor,Croatia,2,False
+1996,Thierry Tusseau,France,2,False
+1997,Giorgos Tzavellas,Greece,2,True
+1998,Sašo Udovič,Slovenia,2,False
+1999,Andreas Ulmer,Austria,2,True
+2000,Hakan Ünsal,Turkey,2,False
+2001,Pascal Vahirua,France,2,False
+2002,Mark van Bommel,Netherlands,2,False
+2003,Paul Van Himst,Belgium,2,False
+2004,Pierre van Hooijdonk,Netherlands,2,False
+2005,Adrie van Kraaij,Netherlands,2,False
+2006,Peter van Vossen,Netherlands,2,False
+2007,Erwin Vandendaele,Belgium,2,False
+2008,Kevin Varga,Hungary,2,True
+2009,Ivica Vastić,Austria,2,False
+2010,Jan Verheyen,Belgium,2,False
+2011,František Veselý,CSSR,2,False
+2012,Ivo Viktor,CSSR,2,False
+2013,Jean Vincent,France,2,False
+2014,Ron Vlaar,Netherlands,2,False
+2015,Franjo Vladić,Yugoslavia,2,False
+2016,Berti Vogts,Germany,2,False
+2017,Rostislav Vojácek,CSSR,2,False
+2018,Josef Vojta,CSSR,2,False
+2019,Kevin Volland,Germany,2,True
+2020,Andriy Voronin,Ukraine,2,False
+2021,Valeriy Voronin,USSR,2,False
+2022,Yuriy Voynov,USSR,2,False
+2023,Chris Waddle,England,2,False
+2024,Owen Wijndal,Netherlands,2,True
+2025,Ray Wilson,England,2,False
+2026,Jonas Wind,Denmark,2,True
+2027,Maryan Wisnieski,France,2,False
+2028,Mark Wright,England,2,False
+2029,Charalambos Xanthopoulos,Greece,2,False
+2030,Taulant Xhaka,Albania,2,True
+2031,Igor Yanovski,Russia,2,False
+2032,Sergey Yuran,CIS,2,False
+2033,Rahim Zafer,Turkey,2,False
+2034,Zlatomir Zagorčić,Bulgaria,2,False
+2035,Denis Zakaria,Switzerland,2,True
+2036,Sándor Zámbó,Hungary,2,False
+2037,Ante Žanetić,Yugoslavia,2,False
+2038,Rifat Zhemaletdinov,Russia,2,True
+2039,Boris Živković,Croatia,2,False
+2040,Zoco,Spain,2,False
+2041,Slavisa Žungul,Yugoslavia,2,False
+2042,Adama Traoré,Spain,1,True
+2043,Roman Adamov,Russia,1,False
+2044,Ayhan Akman,Turkey,1,False
+2045,Nikolai Alho,Finland,1,True
+2046,Aleksandr Aliyev,Ukraine,1,False
+2047,Erik Andersen,Denmark,1,False
+2048,Søren Andersen,Denmark,1,False
+2049,Viv Anderson,England,1,False
+2050,Ioan Andone,Romania,1,False
+2051,Tomas Antonelius,Sweden,1,False
+2052,António Veloso,Portugal,1,False
+2053,Peter Arntz,Netherlands,1,False
+2054,Ionel Augustin,Romania,1,False
+2055,Daniel Avramovski,North Macedonia,1,True
+2056,Dino Baggio,Italy,1,False
+2057,Chris Baird,Northern Ireland,1,False
+2058,Emir Bajrami,Sweden,1,False
+2059,Bekim Balaj,Albania,1,True
+2060,Alan Ball,England,1,False
+2061,Sergey Baltacha,USSR,1,False
+2062,Borna Barišić,Croatia,1,True
+2063,Migjen Basha,Albania,1,False
+2064,Alessandro Bastoni,Italy,1,True
+2065,Begiristáin,Spain,1,False
+2066,Egzon Bejtulai,North Macedonia,1,True
+2067,Emre Belözoğlu,Turkey,1,False
+2068,Loris Benito,Switzerland,1,True
+2069,Giancarlo Bercellino,Italy,1,False
+2070,Henning Berg,Norway,1,False
+2071,Jan Berger,CSSR,1,False
+2072,Thomas Berthold,Germany,1,False
+2073,Ryan Bertrand,England,1,False
+2074,Vladimir Beschastnykh,Russia,1,False
+2075,Barnabás Bese,Hungary,1,True
+2076,Roman Bezus,Ukraine,1,True
+2077,Garry Birtles,England,1,False
+2078,Jaromír Blažek,Czech Republic,1,False
+2079,Nicolai Boilesen,Denmark,1,True
+2080,Alen Bokšić,Croatia,1,False
+2081,Rudi Bommer,Germany,1,False
+2082,Hannes Bongartz,Germany,1,False
+2083,Peter Bosz,Netherlands,1,False
+2084,Valeri Bozhinov,Bulgaria,1,False
+2085,Jakub Brabec,Czech Republic,1,True
+2086,Daniel Bravo,France,1,False
+2087,Thomas Brdaric,Germany,1,False
+2088,Igor Budan,Croatia,1,False
+2089,Ante Budimir,Croatia,1,True
+2090,Evgeniy Bushmanov,Russia,1,False
+2091,Jens-Lys Cajuste,Sweden,1,True
+2092,Cardeñosa,Spain,1,False
+2093,Timothy Castagne,Belgium,1,True
+2094,Gaetano Castrovilli,Italy,1,True
+2095,Oğuz Çetin,Turkey,1,False
+2096,Viktor Chanov,USSR,1,False
+2097,Trevor Cherry,England,1,False
+2098,Denis Cheryshev,Russia,1,True
+2099,André Chorda,France,1,False
+2100,Ryan Christie,Scotland,1,True
+2101,Sokol Çikalleshi,Albania,1,True
+2102,Laurent Ciman,Belgium,1,False
+2103,Thiago Cionek,Poland,1,True
+2104,Orhan Çıkırıkçı,Turkey,1,False
+2105,François Clerc,France,1,False
+2106,Nathaniel Clyne,England,1,True
+2107,Christophe Cocard,France,1,False
+2108,Liam Cooper,Scotland,1,True
+2109,Duje Čop,Croatia,1,True
+2110,Bernardo Corradi,Italy,1,False
+2111,Johan Cruyff,Netherlands,1,False
+2112,Tamás Cseri,Hungary,1,True
+2113,Cundi,Spain,1,False
+2114,Keith Curle,England,1,False
+2115,Dietmar Danner,Germany,1,False
+2116,Paweł Dawidowicz,Poland,1,True
+2117,Gilles De Bilde,Belgium,1,False
+2118,Tim de Cler,Netherlands,1,False
+2119,De la Red,Spain,1,False
+2120,Giancarlo De Sisti,Italy,1,False
+2121,Demy de Zeeuw,Netherlands,1,False
+2122,Jermain Defoe,England,1,False
+2123,Kalle Del'Haye,Germany,1,False
+2124,Mousa Dembélé,Belgium,1,False
+2125,Oktay Derelioğlu,Turkey,1,False
+2126,Stjepan Deverić,Yugoslavia,1,False
+2127,Éric Di Meco,France,1,False
+2128,Marco Di Vaio,Italy,1,False
+2129,Anton Doboș,Romania,1,False
+2130,Bořek Dočkal,Czech Republic,1,False
+2131,Pim Doesburg,Netherlands,1,False
+2132,Oleg Dolmatov,USSR,1,False
+2133,Donato,Spain,1,False
+2134,Georgi Donkov,Bulgaria,1,False
+2135,Yvon Douis,France,1,False
+2136,Artem Dovbyk,Ukraine,1,True
+2137,Ivan Dudić,Yugoslavia,1,False
+2138,Tomislav Dujmović,Croatia,1,False
+2139,Kieron Dyer,England,1,False
+2140,Dieter Eckstein,Germany,1,False
+2141,Stephan El Shaarawy,Italy,1,True
+2142,Engonga,Spain,1,False
+2143,Magnus Erlingmark,Sweden,1,False
+2144,Fabian Ernst,Germany,1,False
+2145,János Farkas,Hungary,1,False
+2146,Giuseppe Favalli,Italy,1,False
+2147,Duncan Ferguson,Scotland,1,False
+2148,Shane Ferguson,Northern Ireland,1,True
+2149,Fernando Navarro,Spain,1,False
+2150,Ciro Ferrara,Italy,1,False
+2151,René Ferrier,France,1,False
+2152,Steliano Filip,Romania,1,False
+2153,James Forrest,Scotland,1,True
+2154,Sébastien Fournier,Switzerland,1,False
+2155,Fabian Frei,Switzerland,1,True
+2156,Per Frimann,Denmark,1,False
+2157,Michael Frontzeck,Germany,1,False
+2158,Martin Frýdek,Czech Republic,1,False
+2159,Cody Gakpo,Netherlands,1,True
+2160,Shkëlzen Gashi,Albania,1,False
+2161,Gayà,Spain,1,True
+2162,Alain Geiger,Switzerland,1,False
+2163,Gerard,Spain,1,False
+2164,Ronald Gërçaliu,Austria,1,True
+2165,Sorin Ghionea,Romania,1,False
+2166,Billy Gilmour,Scotland,1,True
+2167,Bjarne Goldbæk,Denmark,1,False
+2168,Sergey Gorlukovich,Russia,1,False
+2169,Ioannis Gounaris,Greece,1,False
+2170,Jürgen Grabowski,Germany,1,False
+2171,Paul Green,Ireland,1,True
+2172,Stéphane Grichting,Switzerland,1,False
+2173,Bontcho Guenchev,Bulgaria,1,False
+2174,Emre Güngör,Turkey,1,False
+2175,Gennadiy Gusarov,USSR,1,False
+2176,Faruk Hadžibegić,Yugoslavia,1,False
+2177,Vahid Halilhodžić,Yugoslavia,1,False
+2178,Emil Hallfreðsson,Iceland,1,False
+2179,Marcel Halstenberg,Germany,1,True
+2180,Dávid Hancko,Slovakia,1,True
+2181,Jens Jørgen Hansen,Denmark,1,False
+2182,Ferhan Hasani,North Macedonia,1,True
+2183,Filip Helander,Sweden,1,True
+2184,John Helt,Denmark,1,False
+2185,Jack Hendry,Scotland,1,True
+2186,Robert Herbin,France,1,False
+2187,Martin Hiden,Austria,1,False
+2188,Lukas Hinterseer,Austria,1,True
+2189,Erwin Hoffer,Austria,1,False
+2190,Samuel Holmén,Sweden,1,False
+2191,Idriz Hošić,Yugoslavia,1,False
+2192,Geoff Hurst,England,1,False
+2193,Kálmán Ihász,Hungary,1,False
+2194,Mircea Irimescu,Romania,1,False
+2195,Andrey Ivanov,CIS,1,False
+2196,Tomislav Ivković,Yugoslavia,1,False
+2197,Muzzy Izzet,Turkey,1,False
+2198,Reece James,England,1,True
+2199,Jakob Jantscher,Austria,1,True
+2200,Javi Martínez,Spain,1,True
+2201,Tin Jedvaj,Croatia,1,True
+2202,Eoin Jess,Scotland,1,False
+2203,João Félix,Portugal,1,True
+2204,David Johnson,England,1,False
+2205,Robert Jonquet,France,1,False
+2206,Mariusz Jop,Poland,1,False
+2207,Jorge Ribeiro,Portugal,1,False
+2208,Zlatko Junuzović,Austria,1,True
+2209,Ergys Kaçe,Albania,1,True
+2210,Claudiu Keșerü,Romania,1,False
+2211,Ilian Kiriakov,Bulgaria,1,False
+2212,Dmitriy Kirichenko,Russia,1,False
+2213,Tomislav Knez,Yugoslavia,1,False
+2214,Lajos Kocsis,Hungary,1,False
+2215,Orkun Kökçü,Turkey,1,True
+2216,Adam Kokoszka,Poland,1,False
+2217,Dmitriy Kombarov,Russia,1,False
+2218,Imre Komora,Hungary,1,False
+2219,Mihály Korhut,Hungary,1,False
+2220,Bülent Korkmaz,Turkey,1,False
+2221,Aleksey Korneev,USSR,1,False
+2222,Igor Korneev,CIS,1,False
+2223,Kiril Kotev,Bulgaria,1,False
+2224,Martin Kotůlek,Czech Republic,1,False
+2225,Giorgios Koudas,Greece,1,False
+2226,Jules Koundé,France,1,True
+2227,Radoslav Kováč,Czech Republic,1,False
+2228,Ismail Köybaşı,Turkey,1,True
+2229,Mihály Kozma,Hungary,1,False
+2230,Eduard Kozynkevych,USSR,1,False
+2231,Emil Kremenliev,Bulgaria,1,False
+2232,Bjørn Kristensen,Denmark,1,False
+2233,Oleksandr Kucher,Ukraine,1,False
+2234,Fedor Kudryashov,Russia,1,False
+2235,Andrej Kvašňák,CSSR,1,False
+2236,Georges Lamia,France,1,False
+2237,Sabri Lamouchi,France,1,False
+2238,Lassi Lappalainen,Finland,1,True
+2239,Jacob Laursen,Denmark,1,False
+2240,Valentino Lazaro,Austria,1,True
+2241,Frank Leboeuf,France,1,False
+2242,Thomas Lemar,France,1,True
+2243,Clément Lenglet,France,1,True
+2244,Philippe Léonard,Belgium,1,False
+2245,Dylan Levitt,Wales,1,True
+2246,Roger Ljung,Sweden,1,False
+2247,Stanislav Lobotka,Slovakia,1,True
+2248,Giovanni Lodetti,Italy,1,False
+2249,Dmitriy Loskov,Russia,1,False
+2250,Peter Løvenkrands,Denmark,1,False
+2251,Lucas Vázquez,Spain,1,True
+2252,Jordan Lukaku,Belgium,1,True
+2253,Luque,Spain,1,False
+2254,Vladimir Lyutiy,CIS,1,False
+2255,Peter Madsen,Denmark,1,False
+2256,Yunus Mallı,Turkey,1,True
+2257,Vladimir Manchev,Bulgaria,1,False
+2258,Eliaquim Mangala,France,1,True
+2259,Pavel Mareš,Czech Republic,1,False
+2260,Maurice Martens,Belgium,1,False
+2261,Nigel Martyn,England,1,False
+2262,Mata,Spain,1,False
+2263,Alexandru Măţel,Romania,1,False
+2264,Sándor Mátrai,Hungary,1,False
+2265,Željko Matuš,Yugoslavia,1,False
+2266,Adam Matuszczyk,Poland,1,True
+2267,Jim McInally,Scotland,1,False
+2268,Scott McKenna,Scotland,1,True
+2269,Billy McKinlay,Scotland,1,False
+2270,Conor McLaughlin,Northern Ireland,1,False
+2271,Steve McMahon,England,1,False
+2272,Mario Melchiot,Netherlands,1,False
+2273,Caspar Memering,Germany,1,False
+2274,Wim Meutstege,Netherlands,1,False
+2275,Johan Micoud,France,1,False
+2276,Gheorghe Mihali,Romania,1,False
+2277,Zoran Miladinović,Yugoslavia,1,False
+2278,Marc Millecamps,Belgium,1,False
+2279,Mick Mills,England,1,False
+2280,Kostas Mitroglou,Greece,1,False
+2281,Molina,Spain,1,False
+2282,Miklos Molnar,Denmark,1,False
+2283,Pavol Molnár,CSSR,1,False
+2284,Dumitru Moraru,Romania,1,False
+2285,Anton Moravčík,CSSR,1,False
+2286,Mbo Mpenza,Belgium,1,False
+2287,Marijan Mrmić,Croatia,1,False
+2288,Youri Mulder,Netherlands,1,False
+2289,Lucien Müller,France,1,False
+2290,Alan Mullery,England,1,False
+2291,István Nagy,Hungary,1,False
+2292,Johan Neeskens,Netherlands,1,False
+2293,Nicolae Negrilă,Romania,1,False
+2294,Paolo Negro,Italy,1,False
+2295,Oliver Neuville,Germany,1,False
+2296,Keith Newton,England,1,False
+2297,Lakis Nikolaou,Greece,1,False
+2298,Takis Nikoloudis,Greece,1,False
+2299,Joakim Nilsson,Sweden,1,False
+2300,Givi Nodia,USSR,1,False
+2301,Dezső Novák,Hungary,1,False
+2302,Pavel Novotný,Czech Republic,1,False
+2303,Massimo Oddo,Italy,1,False
+2304,David Odonkor,Germany,1,False
+2305,Angelo Ogbonna,Italy,1,True
+2306,Rubin Okotie,Austria,1,False
+2307,Olmo,Spain,1,False
+2308,Karim Onisiwo,Austria,1,True
+2309,Mislav Oršić,Croatia,1,True
+2310,Ivica Osim,Yugoslavia,1,False
+2311,Alexander Östlund,Sweden,1,False
+2312,Otero,Spain,1,False
+2313,Osman Özköylü,Turkey,1,False
+2314,Igor Pamić,Croatia,1,False
+2315,Avraam Papadopoulos,Greece,1,False
+2316,Christos Patsatzoglou,Greece,1,False
+2317,Nathan Patterson,Scotland,1,True
+2318,Ladislav Pavlovič,CSSR,1,False
+2319,Zoran Pavlovič,Slovenia,1,False
+2320,Benoît Pedretti,France,1,False
+2321,Pedro Barbosa,Portugal,1,False
+2322,Pedro Espinha,Portugal,1,False
+2323,Jacky Peeters,Belgium,1,False
+2324,Pepe Reina,Spain,1,True
+2325,Kenneth Pérez,Denmark,1,False
+2326,Luka Peruzović,Yugoslavia,1,False
+2327,Jan Peters,Netherlands,1,False
+2328,Milan Petržela,Czech Republic,1,True
+2329,Hans Pflügler,Germany,1,False
+2330,Przemysław Płacheta,Poland,1,True
+2331,Pavel Pogrebnyak,Russia,1,False
+2332,Nikola Pokrivač,Croatia,1,False
+2333,Jaroslav Pollák,CSSR,1,False
+2334,Jan Poortvliet,Netherlands,1,False
+2335,Porfirio,Portugal,1,False
+2336,Eleftherios Poupakis,Greece,1,False
+2337,Brian Priske,Denmark,1,False
+2338,Florin Prunea,Romania,1,False
+2339,Daniel Pudil,Czech Republic,1,False
+2340,Fabio Quagliarella,Italy,1,False
+2341,Quim,Portugal,1,False
+2342,Niall Quinn,Ireland,1,False
+2343,Stephen Quinn,Ireland,1,True
+2344,Milaim Rama,Switzerland,1,False
+2345,Troels Rasmussen,Denmark,1,False
+2346,Giacomo Raspadori,Italy,1,True
+2347,Petros Ravousis,Greece,1,False
+2348,Jamie Redknapp,England,1,False
+2349,Anthony Réveillère,France,1,False
+2350,Jazz Richards,Wales,1,True
+2351,Wim Rijsbergen,Netherlands,1,False
+2352,Vits Rimkus,Latvia,1,False
+2353,Jens Risager,Denmark,1,False
+2354,Vidar Riseth,Norway,1,False
+2355,Kire Ristevski,North Macedonia,1,True
+2356,Milan Ristovski,North Macedonia,1,True
+2357,Luigi Riva,Italy,1,False
+2358,Gianni Rivera,Italy,1,False
+2359,Robert,Spain,1,False
+2360,Tyler Roberts,Wales,1,True
+2361,Marko Rog,Croatia,1,True
+2362,Roberto Rosato,Italy,1,False
+2363,Jérôme Rothen,France,1,False
+2364,Rúben Neves,Portugal,1,True
+2365,Vedran Runje,Croatia,1,False
+2366,Michal Sadílek,Czech Republic,1,True
+2367,Nuri Şahin,Turkey,1,False
+2368,Kornél Saláta,Slovakia,1,False
+2369,Sandro Salvadore,Italy,1,False
+2370,Aleksandr Samedov,Russia,1,False
+2371,Lucian Sânmărtean,Romania,1,False
+2372,László Sárosi,Hungary,1,False
+2373,Louis Schaub,Austria,1,True
+2374,Michael Schulz,Germany,1,False
+2375,Stanislav Seman,CSSR,1,False
+2376,Andrei Semyonov,Russia,1,True
+2377,Sergio García,Spain,1,False
+2378,Stanislav Šesták,Slovakia,1,False
+2379,Anton Shunin,Russia,1,True
+2380,Robert Siatka,France,1,False
+2381,Dávid Sigér,Hungary,1,True
+2382,Ermin Šiljak,Slovenia,1,False
+2383,Allan Simonsen,Denmark,1,False
+2384,Nasko Sirakov,Bulgaria,1,False
+2385,Jiří Skalák,Czech Republic,1,True
+2386,Alan Smith,England,1,False
+2387,Eduard Sobol,Ukraine,1,True
+2388,Pyry Soiri,Finland,1,True
+2389,Ståle Solbakken,Norway,1,False
+2390,Ernő Solymosi,Hungary,1,False
+2391,Milutin Šoškić,Yugoslavia,1,False
+2392,Stefan Spirovski,North Macedonia,1,True
+2393,Nikos Spyropoulos,Greece,1,False
+2394,Joachim Standfest,Austria,1,False
+2395,Filip Starzyński,Poland,1,True
+2396,Nobby Stiles,England,1,False
+2397,Ovidiu Stîngă,Romania,1,False
+2398,Miroslav Stoch,Slovakia,1,True
+2399,Vlatko Stojanovski,North Macedonia,1,True
+2400,Andrejs Štolcers,Latvia,1,False
+2401,Marco Streller,Switzerland,1,False
+2402,Niklas Süle,Germany,1,True
+2403,Gary Sundgren,Sweden,1,False
+2404,Wilbert Suvrijn,Netherlands,1,False
+2405,Ján Švehlík,CSSR,1,False
+2406,Gustav Svensson,Sweden,1,True
+2407,Václav Svěrkoš,Czech Republic,1,False
+2408,Jakub Świerczok,Poland,1,True
+2409,István Szőke,Hungary,1,False
+2410,Lajos Szűcs,Hungary,1,False
+2411,Jean Taillandier,France,1,False
+2412,Shani Tarashaj,Switzerland,1,False
+2413,Gaston Taument,Netherlands,1,False
+2414,Andreas Thom,Germany,1,False
+2415,Marcus Thuram,France,1,True
+2416,Lajos Tichý,Hungary,1,False
+2417,Dorukhan Toköz,Turkey,1,True
+2418,Moreno Torricelli,Italy,1,False
+2419,Christopher Trimmel,Austria,1,True
+2420,Leandro Trossard,Belgium,1,True
+2421,Kakhaber Tskhadadze,CIS,1,False
+2422,Roman Týce,Czech Republic,1,False
+2423,Alexandros Tziolis,Greece,1,False
+2424,Uría,Spain,1,False
+2425,Štěpán Vachoušek,Czech Republic,1,False
+2426,Leo Väisänen,Finland,1,True
+2427,Willem van Hanegem,Netherlands,1,False
+2428,Hans Vanaken,Belgium,1,True
+2429,Roland Varga,Hungary,1,True
+2430,Zoltán Varga,Hungary,1,False
+2431,Hrvoje Vejić,Croatia,1,False
+2432,Joël Veltman,Netherlands,1,True
+2433,Jan Vennegoor of Hesselink,Netherlands,1,False
+2434,Frédéric Veseli,Albania,1,True
+2435,Vicente Del Bosque,Spain,1,False
+2436,Blagoje Vidinić,Yugoslavia,1,False
+2437,Eric Viscaal,Netherlands,1,False
+2438,Ion Vlădoiu,Romania,1,False
+2439,Eddy Voordeckers,Belgium,1,False
+2440,Mirko Votava,Germany,1,False
+2441,Martien Vreijsen,Netherlands,1,False
+2442,Loukas Vyntra,Greece,1,False
+2443,Dave Watson,England,1,False
+2444,Jakub Wawrzyniak,Poland,1,False
+2445,Jean Wendling,France,1,False
+2446,Pontus Wernbloom,Sweden,1,False
+2447,Kevin Wimmer,Austria,1,True
+2448,Bent Wolmar,Denmark,1,False
+2449,Tommy Wright,England,1,False
+2450,Wolfram Wuttke,Germany,1,False
+2451,Tomasz Zahorski,Poland,1,False
+2452,Cristiano Zanetti,Italy,1,False
+2453,Ioan Zare,Romania,1,False
+2454,Branko Zebec,Yugoslavia,1,False
+2455,Erkan Zengin,Sweden,1,False
+2456,Dzintars Zirnis,Latvia,1,False
+2457,Pascal Zuberbühler,Switzerland,1,False
+2458,Oleksandr Zubkov,Ukraine,1,True
+2459,Maciej Żurawski,Poland,1,False
