@@ -99,13 +99,13 @@ def fig3():
 
 def fig4(df):
     fig4 = go.Figure()
-    fig4.add_trace(go.Bar(x=sorted(df["Team"].unique()),
-                          y=df.groupby(by="Team")["Matches"].sum(),
+    fig4.add_trace(go.Bar(x=sorted(df["Country"].unique()),
+                          y=df.groupby(by="Country")["Matches"].sum(),
                           name='Matches',
                           marker_color='blue'
                           ))
-    fig4.add_trace(go.Scatter(x=sorted(df["Team"].unique()),
-                              y=df.groupby(by="Team")["Player"].count(),
+    fig4.add_trace(go.Scatter(x=sorted(df["Country"].unique()),
+                              y=df.groupby(by="Country")["Player"].count(),
                               mode='markers+text',
                               name='Players',
                               marker_color='red'
@@ -197,40 +197,132 @@ def fig8(df):
 
     st.plotly_chart(fig8)
 
+def fig9(W,D,L):
+    fig9 = go.Figure()
+
+    fig9.add_trace(go.Pie(
+        labels=['W','D','L'],
+        values= [W,D,L],
+        hole=0.3
+    ))
+
+    fig9.update_layout(title='Change ELO rank in EURO')
+
+    st.plotly_chart(fig9)
+
+
 def most_appear(df):
     count = df['Player'].count()
-    nation = df.groupby(by='Team').count().sort_values('Player', ascending=False).index[0]
-    player = df.groupby(by='Team').count().sort_values('Player', ascending=False)['Player'][0]
-    caps = df.loc[df['Team'] == nation, 'Matches'].sum()
+    nation = df.groupby(by='Country').count().sort_values('Player', ascending=False).index[0]
+    player = df.groupby(by='Country').count().sort_values('Player', ascending=False)['Player'][0]
+    caps = df.loc[df['Country'] == nation, 'Matches'].sum()
     return count, nation, player, caps
 
 def most_goals(df):
     if len(df)>0:
         gplayers = df['Player'].count()
         ggoals = df['Goals'].sum()
-        gnation = df.groupby(by='Team')[['Team','Goals']].sum().sort_values(by='Goals',ascending=False).index[0]
-        gplayer = df.loc[df['Team'] == gnation,'Player'].count()
-        gcaps = df.loc[df['Team'] == gnation, 'Goals'].sum()
+        gnation = df.groupby(by='Country')[['Country','Goals']].sum().sort_values(by='Goals',ascending=False).index[0]
+        gplayer = df.loc[df['Country'] == gnation,'Player'].count()
+        gcaps = df.loc[df['Country'] == gnation, 'Goals'].sum()
         return gplayers, ggoals, gnation, gplayer, gcaps
 
+def view_group(team,link):
+        col1, col2 = st.columns(2)
+        with col1:
+            home = st.selectbox(
+                'How would you like to be contacted?',
+                team)
+        with col2:
+            team.remove(home)
+            away = st.selectbox(
+                'How would you like to be contacted?',
+                team)
+
+        A = pd.read_csv(link, sep=',')
+        st.write(f'You selected: {home} vs {away}')
+        A.drop(A.columns[0],axis=1,inplace=True)
+        A = A.reset_index(drop=True)
+        A.index += 1
+        A= A.loc[(A['Home'].str.contains(home) & (A['Away'].str.contains(away))) | ((A['Home'].str.contains(away)) & (A['Away'].str.contains(home)))]
+        H = A['Result'].loc[((A['Home'].str.contains(home)) & (A['Result'] == 'H')) | ((A['Home'].str.contains(away)) & (A['Result'] == 'A'))].count()
+        D = A['Result'].loc[((A['Home'].str.contains(home)) & (A['Result'] == 'D')) | ((A['Home'].str.contains(away)) & (A['Result'] == 'D'))].count()
+        L = A['Result'].loc[((A['Home'].str.contains(home)) & (A['Result'] == 'A')) | ((A['Home'].str.contains(away)) & (A['Result'] == 'H'))].count()
+        GF = A['H'].loc[A['Home'].str.contains(home)].sum() + A['A'].loc[A['Away'].str.contains(home)].sum()
+        GA = A['A'].loc[A['Home'].str.contains(home)].sum() + A['H'].loc[A['Away'].str.contains(home)].sum()
+        st.caption(f'{home} has {H} win {D} draws and {L} lost times against {away} scored {GF} and get {GA} goals')
+        col3, col4 = st.columns(2)
+        with col3:
+            fig9 = go.Figure()
+
+            fig9.add_trace(go.Pie(
+                labels=['Wins', 'Draws', 'Losses'],
+                values=[H, D, L],
+                hole=0.15
+            ))
+            fig9.update_layout(
+                width=300,
+                height=400
+            )
+            st.plotly_chart(fig9)
+
+        with col4:
+            fig10 = go.Figure()
+            fig10.add_trace(go.Pie(
+                labels=['Goals scored', 'Goals against'],
+                values=[GF, GA],
+                hole=0.15,
+            ))
+
+            fig10.update_layout(
+                width=300,
+                height=400
+            )
+
+            st.plotly_chart(fig10)
+        st.dataframe(A, use_container_width=True)
+
+
 st.header("Dashboard - EURO")
+
+team_A = ['Germany', 'Scotland', 'Switzerland', 'Hungary']
+team_B = ['Spain', 'Italy', 'Croatia', 'Albania']
+team_C = ['Denmark', 'England', 'Slovenia', 'Serbia']
+team_D = ['France', 'Poland', 'Netherlands', 'Austria']
+team_E = ['Ukraine', 'Romania', 'Slovakia', 'Belgium']
+team_F = ['Portugal', 'Turkey', 'Czech Republic', 'Georgia']
+all = [element for sublist in [team_A, team_B, team_C, team_D, team_E, team_F] for element in sublist]
+all_df = pd.DataFrame(all, columns=['Country'])
+all_df['Euro 2024'] = True
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["🗓️ stands","⚽️ players","🏅 history result","📈 ELO","🏆 EURO 2024","✅ qualitfication",'🤖 predict matches - ML'])
 
 with tab1:
     st.subheader("EURO 1960 - present")
     st.write('')
-    all = pd.read_csv('/Users/admin/Downloads/data/all.csv', sep =';',index_col=[0,1])
+    all = pd.read_csv('/Users/admin/Downloads/data/all.csv', sep =';')
+    all.loc[all['Country']=='Türkiye','Country']='Turkey'
+    all = pd.merge(all, all_df, on=['Country'], how='left')
+    all['Euro 2024'].fillna(False, inplace=True)
+    last_column = all.pop(all.columns[-1])
+    all.insert(2, last_column.name, last_column)
+    all.set_index([all.columns[0], all.columns[1]], inplace=True)
+    all.index.names = ['No','Country']
     trophy = lambda x: (x * '🏆')
     all['Trophy'] = all['Trophy'].apply(trophy)
-    matches = int(all['Matches'].sum()/2)
     col1, col2, col3, col4 = st.columns(4)
+    euro2024 = st.toggle('Euro 2024')
+    if euro2024:
+        all=all.loc[all['Euro 2024']==True]
+        st.caption('* from 2024 which partcipants in EURO - Serbia didnt play at EURO and Gerogia')
+    matches = int(all['Matches'].sum()/2)
     col1.metric('Goals',all['GF'].sum())
     col2.metric('Matches',matches)
     col3.metric('Avg goals/match',round(all['GF'].sum()/matches,2))
-    col4.metric('Teams',all['Matches'].count())
+    col4.metric('Teams',len(all.index.get_level_values(1)))
     all['Points per tournament'].fillna(0, inplace=True)
     all['Points per tournament'] = all['Points per tournament'].round(2).apply(lambda x: '{:.2f}'.format(x))
+
     st.dataframe(
         all,
         column_config={
@@ -259,16 +351,13 @@ with tab1:
 with tab2:
     st.header("Players in Euro")
     players = pd.read_csv('/Users/admin/Downloads/data/players_modified.csv', sep =',',index_col=0)
-    players['Active'].fillna(False, inplace=True)
-    players = players.reset_index(drop=True)
-    players.index += 1
 
-    teams=sorted(players['Team'].unique())
+    teams=sorted(players['Country'].unique())
 
     goals = pd.read_csv('/Users/admin/Downloads/data/goals_modified.csv', sep=',',index_col=1)
-    goals.drop(goals.columns[0],inplace=True,axis=1)
     goals['AVG'] = goals['AVG'].round(2).apply(lambda x: '{:.2f}'.format(x))
     goals['AVG'] = goals['AVG'].astype(float)
+    goals.drop(goals.columns[0], inplace=True ,axis=1)
 
     select = st.checkbox('I want to select teams')
     options = st.multiselect(
@@ -283,7 +372,7 @@ with tab2:
     gplayers, ggoals, gnation, gplayer, gcaps = most_goals(goals)
 
     if on and select and len(options)>0:
-        players = players.loc[(players['Active'] == True) & (players['Team'].isin(options))]
+        players = players.loc[(players['Active'] == True) & (players['Country'].isin(options))]
         count, nation, player, caps = most_appear(players)
     elif on and not select:
         players = players.loc[players['Active']==True]
@@ -292,7 +381,7 @@ with tab2:
         players = players.loc[players['Active']==True]
         count, nation, player, caps = most_appear(players)
     elif select and len(options)>0:
-        players = players.loc[players['Team'].isin(options)]
+        players = players.loc[players['Country'].isin(options)]
         count, nation, player, caps = most_appear(players)
     else:
         players = players
@@ -426,20 +515,25 @@ with tab4:
 
 with tab5:
     tabA, tabB, tabC, tabD, tabE, tabF = st.tabs(["Group A","Group B","Group C","Group D","Group E","Group F"])
-    team_A = ['Germany', 'Scotland', 'Switzerland', 'Hungary']
-    team_B = ['Spain', 'Italy', 'Croatia', 'Albania']
-    team_C = ['Denmark', 'England', 'Slovenia', 'Serbia']
-    team_D = ['France', 'Poland', 'Netherlands', 'Austria']
-    team_E = ['Ukraine', 'Romania', 'Slovakia', 'Belgium']
-    team_F = ['Portugal', 'Turkey', 'Czech Republic', 'Georgia']
-    all = [element for sublist in [team_A,team_B,team_C,team_D,team_E,team_F] for element in sublist]
-    all_df = pd.DataFrame(all, columns=['Country'])
-    all_df['Euro 2024']=True
-
 
     with tabA:
-        A = pd.read_csv('/Users/admin/Downloads/data/h2h/groupA_H2H.csv', sep=';', names=['Date','Match','Result','Score','Type'])
-        st.dataframe(A, use_container_width=True)
+        link= '/Users/admin/Downloads/data/h2h/groupA_H2H_modified.csv'
+        view_group(team_A,link)
+    with tabB:
+        link= '/Users/admin/Downloads/data/h2h/groupB_H2H_modified.csv'
+        view_group(team_B,link)
+    with tabC:
+        link= '/Users/admin/Downloads/data/h2h/groupC_H2H_modified.csv'
+        view_group(team_C,link)
+    with tabD:
+        link= '/Users/admin/Downloads/data/h2h/groupD_H2H_modified.csv'
+        view_group(team_D,link)
+    with tabE:
+        link= '/Users/admin/Downloads/data/h2h/groupE_H2H_modified.csv'
+        view_group(team_E,link)
+    with tabF:
+        link= '/Users/admin/Downloads/data/h2h/groupF_H2H_modified.csv'
+        view_group(team_F,link)
 
 with tab6:
     st.subheader('Passes for Country')
@@ -510,4 +604,5 @@ with tab6:
     st.plotly_chart(fig4)
 
 with tab7:
-    pass
+    with st.sidebar:
+        st.write("Bartosz Wajman")
