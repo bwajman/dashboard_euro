@@ -41,6 +41,7 @@ def fig2():
     fig2.add_trace(go.Scatter(x=teams.index.get_level_values("Country"),
                               y=teams['Points per tournament'],
                               mode='markers',
+                              hovertext=teams['Points per tournament'],
                               name='Points per tournament',
                               marker_color='red'
                               ))
@@ -210,6 +211,17 @@ def fig9(W,D,L):
 
     st.plotly_chart(fig9)
 
+def fig10(df):
+    fig10 = go.Figure()
+    unique_euros = df['Euro'].unique()
+    players_count = {euro: df[df['Euro'] == euro]['Player'].count() for euro in unique_euros}
+
+    fig10.add_trace(go.Scatter(x=df['Euro'], y=df['Goals'], mode='lines+markers', name='Goals', yaxis='y',hovertext=df['Goals']))
+    fig10.add_trace(go.Bar(x=list(players_count.keys()),y=list(players_count.values()),name='Players',marker_color='blue'))
+    fig10.update_xaxes(tickmode='array', tickvals=df['Euro'])
+    #fig10.update_layout(yaxis=dict(title='Goals'), yaxis2=dict(title='AVG', overlaying='y', side='right'))
+    #fig10.update_layout(xaxis_title='EURO', title='Goals in EURO and avg goals/EURO')
+    return st.plotly_chart(fig10)
 
 def most_appear(df):
     count = df['Player'].count()
@@ -251,6 +263,10 @@ def view_group(team,link):
         GF = A['H'].loc[A['Home'].str.contains(home)].sum() + A['A'].loc[A['Away'].str.contains(home)].sum()
         GA = A['A'].loc[A['Home'].str.contains(home)].sum() + A['H'].loc[A['Away'].str.contains(home)].sum()
         st.caption(f'{home} has {H} win {D} draws and {L} lost times against {away} scored {GF} and get {GA} goals')
+        comp = [(value, key) for value, key in A["Competitions"].value_counts().items()]
+        comp_str = ", \n".join([f"{value2} - {key2}" for (value2, key2) in comp])
+        print(comp_str)
+        st.caption(f'{home} has played with {away} {A["Result"].count()} times in {comp_str}')
         col3, col4 = st.columns(2)
         with col3:
             fig9 = go.Figure()
@@ -280,7 +296,9 @@ def view_group(team,link):
             )
 
             st.plotly_chart(fig10)
+
         st.dataframe(A, use_container_width=True)
+
 
 
 st.header("Dashboard - EURO")
@@ -351,7 +369,14 @@ with tab1:
 with tab2:
     st.header("Players in Euro")
     players = pd.read_csv('/Users/admin/Downloads/data/players_modified.csv', sep =',',index_col=0)
+    top = pd.read_csv('/Users/admin/Downloads/data/topscorer_modified.csv', sep =';',index_col=0)
+    with st.expander("Show topscorers"):
+        top = top.reset_index(drop=True)
+        top.index += 1
+        top['Euro']=top['Euro'].astype(str)
 
+        st.dataframe(top)
+        fig10(top)
     teams=sorted(players['Country'].unique())
 
     goals = pd.read_csv('/Users/admin/Downloads/data/goals_modified.csv', sep=',',index_col=1)
@@ -426,7 +451,25 @@ with tab2:
             st.error("No records to display :(")
 
 
+    with st.expander('own goals:'):
+        own_goals = pd.read_csv('/Users/admin/Downloads/data/all_own_goals_modified.csv', sep=';',index_col=0)
 
+        own_goals = own_goals.reset_index(drop=True)
+        own_goals.index += 1
+        st.dataframe(own_goals)
+
+        fig11 = go.Figure()
+
+        fig11.add_trace(go.Pie(
+            labels=own_goals['Active'],
+            values=own_goals['Goals'],
+            hole=0.15
+        ))
+        fig11.update_layout(
+            width=300,
+            height=400
+        )
+        st.plotly_chart(fig11)
 
 
 
@@ -571,7 +614,7 @@ with tab6:
     cards['Euro 2024'].fillna(False, inplace=True)
     cards = cards.reset_index(drop=True)
     cards.index += 1
-    st.dataframe(cards)
+    st.dataframe(cards, use_container_width=True)
     st.divider()
     fig4 = go.Figure()
 
@@ -602,7 +645,3 @@ with tab6:
     )
 
     st.plotly_chart(fig4)
-
-with tab7:
-    with st.sidebar:
-        st.write("Bartosz Wajman")
