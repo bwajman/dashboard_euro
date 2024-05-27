@@ -3,3 +3,4 @@ matplotlib==3.7.5
 matplotlib-inline==0.1.6
 ipyvizzu==0.17.0
 ipyvizzu-story==0.10.0
+scikit-learn==1.3.2
