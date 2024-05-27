@@ -529,8 +529,8 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
     ["🗓️ all-time table", "👤 players", "🏅 results", "📈 ELO rank", "🏆 EURO 2024", "✅ qualifications",'🤖 **:red[predict matches]**'])
 
 with tab1:
-    all = pd.read_csv('/Users/admin/Downloads/data/all.csv', sep=';')
-    df = pd.read_csv('/Users/admin/Downloads/data/all.csv', sep=';')
+    all = pd.read_csv('/data/all.csv', sep=';')
+    df = pd.read_csv('/data/all.csv', sep=';')
     all.loc[all['Country'] == 'Türkiye', 'Country'] = 'Turkey'
     df.loc[df['Country'] == 'Türkiye', 'Country'] = 'Turkey'
     all = pd.merge(all, euro2024df, on=['Country'], how='left')
@@ -591,10 +591,10 @@ with tab1:
         html(CHART, width=800, height=800)
 
 with tab2:
-    players = pd.read_csv('/Users/admin/Downloads/data/players_modified.csv', sep=',', index_col=0)
-    goals = pd.read_csv('/Users/admin/Downloads/data/goals_modified.csv', sep=',', index_col=1)
-    top = pd.read_csv('/Users/admin/Downloads/data/topscorer_modified.csv', sep=';', index_col=0)
-    own_goals = pd.read_csv('/Users/admin/Downloads/data/all_own_goals_modified.csv', sep=';', index_col=0)
+    players = pd.read_csv('/data/players_modified.csv', sep=',', index_col=0)
+    goals = pd.read_csv('/data/goals_modified.csv', sep=',', index_col=1)
+    top = pd.read_csv('/data/topscorer_modified.csv', sep=';', index_col=0)
+    own_goals = pd.read_csv('/data/all_own_goals_modified.csv', sep=';', index_col=0)
 
     players = pd.merge(players, goals, on=['Player'], how='left')
     players.drop(columns=players.columns[4:7], axis=1, inplace=True)
@@ -679,7 +679,7 @@ with tab2:
         pie_chart(own_goals['Active'], own_goals['Goals'], 'Goals scored by active players')
 
 with tab3:
-    result = pd.read_csv('/Users/admin/Downloads/data/result_modified.csv', sep=',', index_col=0)
+    result = pd.read_csv('/data/result_modified.csv', sep=',', index_col=0)
     col1, col2 = st.columns(2)
     col1.metric('Matches that ended in extra time', result['Extra Time'].sum())
     col2.metric('Matches that were ended by penalties.', result['Penatly'].sum())
@@ -731,8 +731,8 @@ with tab3:
     fig56(euros, stages)
 
 with tab4:
-    elo_start = pd.read_csv('/Users/admin/Downloads/data/ELO_start.csv', sep=';')
-    elo_end = pd.read_csv('/Users/admin/Downloads/data/ELO_end.csv', sep=';')
+    elo_start = pd.read_csv('/data/ELO/ELO_start.csv', sep=';')
+    elo_end = pd.read_csv('/data/ELO/ELO_end.csv', sep=';')
     elo = pd.merge(elo_start, elo_end, on=['Euro', 'Team'], how='inner')
     elo = elo.reset_index(drop=True)
     elo.index += 1
@@ -789,32 +789,32 @@ with tab5:
     tabA, tabB, tabC, tabD, tabE, tabF = st.tabs(["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"])
 
     with tabA:
-        link = '/Users/admin/Downloads/data/h2h/groupA_H2H_modified.csv'
+        link = '/data/h2h/groupA_H2H_modified.csv'
         view_group(team_A, link)
     with tabB:
-        link = '/Users/admin/Downloads/data/h2h/groupB_H2H_modified.csv'
+        link = '/data/h2h/groupB_H2H_modified.csv'
         view_group(team_B, link)
     with tabC:
-        link = '/Users/admin/Downloads/data/h2h/groupC_H2H_modified.csv'
+        link = '/data/h2h/groupC_H2H_modified.csv'
         view_group(team_C, link)
     with tabD:
-        link = '/Users/admin/Downloads/data/h2h/groupD_H2H_modified.csv'
+        link = '/data/h2h/groupD_H2H_modified.csv'
         view_group(team_D, link)
     with tabE:
-        link = '/Users/admin/Downloads/data/h2h/groupE_H2H_modified.csv'
+        link = '/data/h2h/groupE_H2H_modified.csv'
         view_group(team_E, link)
     with tabF:
-        link = '/Users/admin/Downloads/data/h2h/groupF_H2H_modified.csv'
+        link = '/data/h2h/groupF_H2H_modified.csv'
         view_group(team_F, link)
 
 with tab6:
     tab6_active = st.toggle('Euro 2024', key='tab6_active')
 
-    passes = pd.read_csv('/Users/admin/Downloads/data/2024Q_passes.csv', sep=';')
-    shots = pd.read_csv('/Users/admin/Downloads/data/2024Q_shots.csv', sep=';')
-    offside = pd.read_csv('/Users/admin/Downloads/data/2024Q_offsides.csv', sep=';')
-    goals = pd.read_csv('/Users/admin/Downloads/data/2024Q_goals.csv', sep=';')
-    possession = pd.read_csv('/Users/admin/Downloads/data/2024Q_possession.csv', sep=';')
+    passes = pd.read_csv('/data/qualification/2024Q_passes.csv', sep=';')
+    shots = pd.read_csv('/data/qualification/2024Q_shots.csv', sep=';')
+    offside = pd.read_csv('/data/qualification/data/2024Q_offsides.csv', sep=';')
+    goals = pd.read_csv('/data/qualification/data/2024Q_goals.csv', sep=';')
+    possession = pd.read_csv('/data/qualification/2024Q_possession.csv', sep=';')
 
     passes.drop(columns=['Total passes', 'Passes arrived'], axis=1, inplace=True)
     passes = passes.sort_values(by='Total passes (avg)', ascending=False)
@@ -835,11 +835,11 @@ with tab6:
                  'Shots in box (avg)', 'Shots outside box (avg)', 'Offside(avg)'], axis=1, inplace=True)
     shots = shots.reset_index(drop=True)
     shots.index += 1
-    fouls = pd.read_csv('/Users/admin/Downloads/data/2024Q_fouls.csv', sep=';')
+    fouls = pd.read_csv('/data/qualification/2024Q_fouls.csv', sep=';')
     fouls.drop(columns=['#', 'Fools (avg)'], inplace=True, axis=0)
-    yellow_cards = pd.read_csv('/Users/admin/Downloads/data/2024Q_yellow_cards.csv', sep=';')
+    yellow_cards = pd.read_csv('/data/qualification/2024Q_yellow_cards.csv', sep=';')
     yellow_cards.drop(columns=['#'], inplace=True, axis=0)
-    red_cards = pd.read_csv('/Users/admin/Downloads/data/2024Q_red_cards.csv', sep=';')
+    red_cards = pd.read_csv('/data/qualification/2024Q_red_cards.csv', sep=';')
     red_cards.drop(columns=['#'], inplace=True, axis=0)
     cards = pd.merge(fouls, yellow_cards, on=['Country'], how='left')
     cards = pd.merge(cards, red_cards, on=['Country'], how='left')
@@ -906,7 +906,7 @@ with tab7:
     abcde = st.slider('Select hidden layers of model?', 20, 150, 100)
 
     scaler = MinMaxScaler()
-    test = pd.read_csv('/Users/admin/Downloads/data/ML_elo.csv',index_col=0)
+    test = pd.read_csv('/data/ML/ML_elo.csv',index_col=0)
     rescaled = scaler.fit_transform(test.iloc[:, :3])
     rescaled_2 = scaler.fit_transform(euro_2024_df_start.iloc[:, -1:])
     scaled_2024 = pd.Series(rescaled_2[:,0], name="Scaled")
