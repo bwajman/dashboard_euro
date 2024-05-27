@@ -812,8 +812,8 @@ with tab6:
 
     passes = pd.read_csv('data/qualification/2024Q_passes.csv', sep=';')
     shots = pd.read_csv('data/qualification/2024Q_shots.csv', sep=';')
-    offside = pd.read_csv('data/qualification/data/2024Q_offsides.csv', sep=';')
-    goals = pd.read_csv('data/qualification/data/2024Q_goals.csv', sep=';')
+    offside = pd.read_csv('data/qualification/2024Q_offsides.csv', sep=';')
+    goals = pd.read_csv('data/qualification/2024Q_goals.csv', sep=';')
     possession = pd.read_csv('data/qualification/2024Q_possession.csv', sep=';')
 
     passes.drop(columns=['Total passes', 'Passes arrived'], axis=1, inplace=True)
