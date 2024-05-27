@@ -1,54 +1,54 @@
 Country;Total passes;Total passes (avg);Passes arrived;Passes arrived (avg);Pass Accuracy (avg)
-Switzerland Switzerland;6592;659;5917;592;90%
-Portugal Portugal;6183;687;5552;617;89%
-Denmark Denmark;6064;606;5272;527;87%
-Spain Spain;5600;700;5093;637;91%
-Finland Finland;5435;544;4451;445;81%
-France France;5221;653;4732;592;90%
-Israel Israel;5216;522;4418;442;84%
-Croatia Croatia;4691;670;4168;595;89%
-Netherlands Netherlands;4585;573;4059;507;88%
-England England;4560;570;4099;512;89%
-Poland Poland;4518;565;3768;471;83%
-Norway Norway;4423;553;3898;487;87%
-Slovenia Slovenia;4421;442;3655;366;80%
-Slovakia Slovakia;4380;487;3660;407;83%
-Italy Italy;4357;545;3826;478;87%
-Romania Romania;4274;427;3399;340;77%
-Bosnia Herz. Bosnia Herz.;4074;453;3398;378;83%
-Serbia Serbia;4040;505;3443;430;86%
-Northern Ireland Northern Ireland;3994;399;3182;318;78%
-Kosovo Kosovo;3965;397;3107;311;76%
-Kazakhstan Kazakhstan;3873;387;2918;292;75%
-Belgium Belgium;3846;481;3320;415;86%
-Ireland Ireland;3832;479;3297;412;85%
-Iceland Iceland;3827;425;3021;336;77%
-Greece Greece;3805;476;3303;413;86%
-Czech Republic Czech Republic;3791;474;2999;375;78%
-Hungary Hungary;3681;460;3078;385;83%
-Albania Albania;3660;458;2978;372;80%
-Turkey Turkey;3603;515;3082;440;85%
-Austria Austria;3546;443;2859;357;80%
-Luxembourg Luxembourg;3468;385;2764;307;79%
-Belarus Belarus;3398;340;2481;248;71%
-Bulgaria Bulgaria;3337;417;2634;329;78%
-Georgia Georgia;3213;402;2653;332;81%
-Sweden Sweden;3061;383;2470;309;79%
-Wales Wales;3054;382;2489;311;80%
-Faroe Islands Faroe Islands;2965;371;2232;279;73%
-Azerbaijan Azerbaijan;2960;370;2284;286;76%
-Macedonia Macedonia;2954;369;2319;290;76%
-Scotland Scotland;2889;413;2385;341;80%
-Armenia Armenia;2830;404;2304;329;80%
-Lithuania Lithuania;2646;331;2004;251;75%
-Moldova Moldova;2429;304;1693;212;67%
-Estonia Estonia;2416;302;1726;216;71%
-Montenegro Montenegro;2361;295;1734;217;75%
-Ukraine Ukraine;2350;336;1957;280;84%
-Cyprus Cyprus;2237;320;1769;253;77%
-Malta Malta;2203;315;1732;247;78%
-San Marino San Marino;1923;192;1194;119;60%
-Latvia Latvia;1865;266;1297;185;69%
-Andorra Andorra;1852;185;964;96;51%
-Liechtenstein Liechtenstein;1766;196;1096;122;60%
-Gibraltar Gibraltar;1549;194;964;121;60%
+Switzerland;6592;659;5917;592;90%
+Portugal;6183;687;5552;617;89%
+Denmark;6064;606;5272;527;87%
+Spain;5600;700;5093;637;91%
+Finland;5435;544;4451;445;81%
+France;5221;653;4732;592;90%
+Israel;5216;522;4418;442;84%
+Croatia;4691;670;4168;595;89%
+Netherlands;4585;573;4059;507;88%
+England;4560;570;4099;512;89%
+Poland;4518;565;3768;471;83%
+Norway;4423;553;3898;487;87%
+Slovenia;4421;442;3655;366;80%
+Slovakia;4380;487;3660;407;83%
+Italy;4357;545;3826;478;87%
+Romania;4274;427;3399;340;77%
+Bosnia Herz.;4074;453;3398;378;83%
+Serbia;4040;505;3443;430;86%
+Northern Ireland;3994;399;3182;318;78%
+Kosovo;3965;397;3107;311;76%
+Kazakhstan;3873;387;2918;292;75%
+Belgium;3846;481;3320;415;86%
+Ireland;3832;479;3297;412;85%
+Iceland;3827;425;3021;336;77%
+Greece;3805;476;3303;413;86%
+Czech Republic;3791;474;2999;375;78%
+Hungary;3681;460;3078;385;83%
+Albania;3660;458;2978;372;80%
+Turkey;3603;515;3082;440;85%
+Austria;3546;443;2859;357;80%
+Luxembourg;3468;385;2764;307;79%
+Belarus;3398;340;2481;248;71%
+Bulgaria;3337;417;2634;329;78%
+Georgia;3213;402;2653;332;81%
+Sweden;3061;383;2470;309;79%
+Wales;3054;382;2489;311;80%
+Faroe Islands;2965;371;2232;279;73%
+Azerbaijan;2960;370;2284;286;76%
+Macedonia;2954;369;2319;290;76%
+Scotland;2889;413;2385;341;80%
+Armenia;2830;404;2304;329;80%
+Lithuania;2646;331;2004;251;75%
+Moldova;2429;304;1693;212;67%
+Estonia;2416;302;1726;216;71%
+Montenegro;2361;295;1734;217;75%
+Ukraine;2350;336;1957;280;84%
+Cyprus;2237;320;1769;253;77%
+Malta;2203;315;1732;247;78%
+San Marino;1923;192;1194;119;60%
+Latvia;1865;266;1297;185;69%
+Andorra;1852;185;964;96;51%
+Liechtenstein;1766;196;1096;122;60%
+Gibraltar;1549;194;964;121;60%
