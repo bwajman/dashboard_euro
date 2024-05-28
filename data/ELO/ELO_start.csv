@@ -58,7 +58,7 @@ Euro;Local;Global;Team;Rating
 1996;5;6;Denmark;1970
 1996;6;7;Russia;1933
 1996;7;9;Netherlands;1916
-1996;8;10;Czechia;1907
+1996;8;10;Czech Republic;1907
 1996;9;11;Croatia;1902
 1996;10;12;Romania;1892
 1996;11;13;England;1887
@@ -70,7 +70,7 @@ Euro;Local;Global;Team;Rating
 2000;1;2;France;2064
 2000;2;3;Spain;2019
 2000;3;4;Netherlands;1963
-2000;4;6;Czechia;1944
+2000;4;6;Czech Republic;1944
 2000;4;6;Yugoslavia;1944
 2000;6;8;Italy;1929
 2000;7;9;Norway;1914
@@ -86,7 +86,7 @@ Euro;Local;Global;Team;Rating
 2004;1;1;France;2057
 2004;2;2;Spain;2017
 2004;3;5;Netherlands;1967
-2004;4;6;Czechia;1958
+2004;4;6;Czech Republic;1958
 2004;5;7;Italy;1948
 2004;6;8;England;1939
 2004;7;9;Portugal;1899
@@ -104,7 +104,7 @@ Euro;Local;Global;Team;Rating
 2008;3;5;Spain;1986
 2008;4;6;Netherlands;1973
 2008;5;7;Germany;1961
-2008;6;8;Czechia;1921
+2008;6;8;Czech Republic;1921
 2008;7;10;Romania;1912
 2008;8;12;Croatia;1871
 2008;9;13;Portugal;1860
@@ -127,7 +127,7 @@ Euro;Local;Global;Team;Rating
 2012;10;15;Russia;1850
 2012;11;16;Denmark;1817
 2012;12;21;Ireland;1805
-2012;13;22;Czechia;1788
+2012;13;22;Czech Republic;1788
 2012;14;24;Greece;1780
 2012;15;30;Ukraine;1756
 2012;16;35;Poland;1722
@@ -149,7 +149,7 @@ Euro;Local;Global;Team;Rating
 2016;16;28;Russia;1760
 2016;17;29;Romania;1759
 2016;18;30;Ireland;1758
-2016;19;31;Czechia;1755
+2016;19;31;Czech Republic;1755
 2016;20;41;Hungary;1697
 2016;21;45;Iceland;1666
 2016;22;47;Wales;1655
@@ -171,7 +171,7 @@ Euro;Local;Global;Team;Rating
 2020;14;20;Ukraine;1814
 2020;15;21;Turkey;1801
 2020;16;23;Poland;1796
-2020;17;29;Czechia;1768
+2020;17;29;Czech Republic;1768
 2020;18;33;Austria;1747
 2020;19;35;Russia;1744
 2020;20;36;Hungary;1741
@@ -195,7 +195,7 @@ Euro;Local;Global;Team;Rating
 2024;14;21;Switzerland;1804
 2024;15;24;Serbia;1788
 2024;16;25;Scotland;1776
-2024;17;27;Czechia;1772
+2024;17;27;Czech Republic;1772
 2024;18;31;Turkey;1750
 2024;19;35;Slovenia;1739
 2024;20;38;Poland;1721
