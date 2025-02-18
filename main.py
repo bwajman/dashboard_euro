@@ -87,11 +87,11 @@ def fig1():
                           ))
     fig1.update_layout(
         title='Goals for and against',
-        xaxis_tickfont_size=12,
+        xaxis_tickfont=12,
         yaxis=dict(
             title='Goals',
             titlefont_size=16,
-            tickfont_size=14,
+            tickfont=14,
         ),
         legend=dict(
             x=0,
@@ -122,11 +122,11 @@ def fig2():
 
     fig2.update_layout(
         title='Participations in EURO and points/tournament',
-        xaxis_tickfont_size=12,
+        xaxis_tickfont=12,
         yaxis=dict(
             title='Participations / Points',
             titlefont_size=16,
-            tickfont_size=14,
+            tickfont=14,
         ),
         legend=dict(
             x=0,
@@ -145,16 +145,16 @@ def fig3():
                   labels={"variable": "Result"})
     fig3.update_layout(
         title='Wins, draws and losses per team',
-        xaxis_tickfont_size=12,
+        xaxis_tickfont=12,
         yaxis=dict(
             title='Matches',
             titlefont_size=16,
-            tickfont_size=14,
+            tickfont=14,
         ),
         xaxis=dict(
             title='',
             titlefont_size=16,
-            tickfont_size=14,
+            tickfont=14,
         ),
         legend=dict(
             x=0,
@@ -182,11 +182,11 @@ def fig4(df):
                               ))
     fig4.update_layout(
         title='Matches and players per country',
-        xaxis_tickfont_size=12,
+        xaxis_tickfont=12,
         yaxis=dict(
             title='Matches / Players',
             titlefont_size=16,
-            tickfont_size=14,
+            tickfont=14,
         ),
         legend=dict(
             bgcolor='rgba(255, 255, 255, 0)',
@@ -257,8 +257,8 @@ def fig8(df):
 
     fig8.update_layout(
         title='Goals and matches',
-        xaxis=dict(title='Matches', titlefont_size=16, tickfont_size=14),
-        yaxis=dict(title='Goals', titlefont_size=16, tickfont_size=14),
+        xaxis=dict(title='Matches', titlefont_size=16, tickfont=14),
+        yaxis=dict(title='Goals', titlefont_size=16, tickfont=14),
         legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
         bargap=0.2,
         bargroupgap=0.1
@@ -348,8 +348,8 @@ def chart_passes(df):
 
     fig4.update_layout(
         title='Goals and matches',
-        xaxis=dict(title='Pass Accuracy (avg)', titlefont_size=16, tickfont_size=14),
-        yaxis=dict(title='Total passes (avg)', titlefont_size=16, tickfont_size=14),
+        xaxis=dict(title='Pass Accuracy (avg)', titlefont_size=16, tickfont=14),
+        yaxis=dict(title='Total passes (avg)', titlefont_size=16, tickfont=14),
         legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
         bargap=0.2,
         bargroupgap=0.1
@@ -391,8 +391,8 @@ def chart_shots(df):
 
     fig5.update_layout(
         title=f'{option} vs {option1}',
-        xaxis=dict(title=option, titlefont_size=16, tickfont_size=14),
-        yaxis=dict(title=option1, titlefont_size=16, tickfont_size=14),
+        xaxis=dict(title=option, titlefont_size=16, tickfont=14),
+        yaxis=dict(title=option1, titlefont_size=16, tickfont=14),
         legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
         bargap=0.2,
         bargroupgap=0.1
@@ -423,8 +423,8 @@ def chart_fouls(df):
 
     fig6.update_layout(
         title='Fouls / yellow cards',
-        xaxis=dict(title='Fouls', titlefont_size=16, tickfont_size=14),
-        yaxis=dict(title='Yellow cards', titlefont_size=16, tickfont_size=14),
+        xaxis=dict(title='Fouls', titlefont_size=16, tickfont=14),
+        yaxis=dict(title='Yellow cards', titlefont_size=16, tickfont=14),
         legend=dict(x=0, y=1.0, bgcolor='rgba(255, 255, 255, 0)', bordercolor='rgba(255, 255, 255, 0)'),
         bargap=0.2,
         bargroupgap=0.1
