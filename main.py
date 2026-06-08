@@ -881,7 +881,7 @@ with tab7:
         st.caption('Remember:  The result is not staggering but this is sport and a lot of random factors determine the final result.')
 
     euro_2024_df_start = elo_start.loc[elo_start['Euro']==2024]
-    euro_2024_df_start.drop(columns=['Euro','Local','Global'], axis=1, inplace=True)
+    euro_2024_df_start.drop(columns=['Euro', 'Local', 'Global'], inplace=True)
     euro_2024_df_start = euro_2024_df_start.reset_index(drop=True)
 
     team_A = ['Germany', 'Scotland', 'Switzerland', 'Hungary']
