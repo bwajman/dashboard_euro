@@ -405,7 +405,7 @@ def chart_fouls(df):
     fig6 = go.Figure()
 
     colors = [1 if val else 0 for val in df['Euro 2024']]
-    markers = [int(i) + 10 for i in df['Red cards']]
+    markers = pd.to_numeric(df['Red cards'], errors='coerce').fillna(0).astype(int) + 10
 
     fig6.add_trace(go.Scatter(
         x=df['Fools'],
