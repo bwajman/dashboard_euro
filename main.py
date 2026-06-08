@@ -856,8 +856,13 @@ with tab6:
 
     with st.expander('passing in qualifications'):
         cmap = plt.colormaps['RdYlGn']
-        st.dataframe(passes.style.background_gradient(cmap=cmap, subset=['Total passes (avg)', 'Passes arrived (avg)'],
-                                                      vmin=(95), vmax=700, axis=None))
+        st.dataframe(
+            passes.style.background_gradient(
+            cmap=cmap, 
+            subset=['Total passes (avg)', 'Passes arrived (avg)'], 
+            vmin=95, 
+            vmax=700, 
+            axis=0))
         chart_passes(passes)
     st.divider()
     with st.expander('shooting in qualifications'):
