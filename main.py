@@ -776,13 +776,6 @@ with tab4:
 
     fig11(elo_bw)
 
-    team = sorted(elo['Country'].unique())
-    option = st.selectbox(
-        "Which country are you interested in?",
-        team,
-        index=None,
-        placeholder="Select country...",
-    )
 
     if option:
         col1, col2 = st.columns(2)
