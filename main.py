@@ -777,19 +777,19 @@ with tab4:
     fig11(elo_bw)
 
 
-    if option:
-        col1, col2 = st.columns(2)
-        col1.metric('Best Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[
-            elo['Country'] == option].max()) & (elo['Country'] == option)]['Euro']))
-        col2.metric('Worst Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[
-            elo['Country'] == option].min()) & (elo['Country'] == option)]['Euro']))
-        elo = elo.loc[elo['Country'] == option]
-        st.dataframe(elo.style.highlight_max(subset=['ELO change'], color='green', axis=0), use_container_width=True)
-        st.caption('* REB - Rank Europe Before / RGB - Rank Global Before / REA - Rank Europe After / RGA - Rank Global After')
-        fig7(elo)
-    else:
-        st.dataframe(elo, use_container_width=True)
-        st.caption('* REB - Rank Europe Before / RGB - Rank Global Before / REA - Rank Europe After / RGA - Rank Global After')
+    # if option:
+    #     col1, col2 = st.columns(2)
+    #     col1.metric('Best Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[
+    #         elo['Country'] == option].max()) & (elo['Country'] == option)]['Euro']))
+    #     col2.metric('Worst Euro:', int(elo.loc[(elo['ELO change'] == elo['ELO change'].loc[
+    #         elo['Country'] == option].min()) & (elo['Country'] == option)]['Euro']))
+    #     elo = elo.loc[elo['Country'] == option]
+    #     st.dataframe(elo.style.highlight_max(subset=['ELO change'], color='green', axis=0), use_container_width=True)
+    #     st.caption('* REB - Rank Europe Before / RGB - Rank Global Before / REA - Rank Europe After / RGA - Rank Global After')
+    #     fig7(elo)
+    # else:
+    #     st.dataframe(elo, use_container_width=True)
+    #     st.caption('* REB - Rank Europe Before / RGB - Rank Global Before / REA - Rank Europe After / RGA - Rank Global After')
 
 with tab5:
     tabA, tabB, tabC, tabD, tabE, tabF = st.tabs(["Group A", "Group B", "Group C", "Group D", "Group E", "Group F"])
