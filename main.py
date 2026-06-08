@@ -831,8 +831,8 @@ with tab6:
     shots = pd.merge(shots, euro2024df, on=['Country'], how='left')
     shots['Euro 2024'].fillna(False, inplace=True)
     shots.drop(
-        columns=['Total shots (avg)', 'Shots on target (avg)', 'Shots off target (average)', 'Shots blocked (average)',
-                 'Shots in box (avg)', 'Shots outside box (avg)', 'Offside(avg)'], axis=1, inplace=True)
+    columns=['Total shots (avg)', 'Shots on target (avg)', 'Shots off target (average)', 'Shots blocked (average)',
+             'Shots in box (avg)', 'Shots outside box (avg)', 'Offside(avg)'], inplace=True)
     shots = shots.reset_index(drop=True)
     shots.index += 1
     fouls = pd.read_csv('data/qualification/2024Q_fouls.csv', sep=';')
