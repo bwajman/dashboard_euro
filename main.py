@@ -597,8 +597,8 @@ with tab2:
     own_goals = pd.read_csv('data/all_own_goals_modified.csv', sep=';', index_col=0)
 
     players = pd.merge(players, goals, on=['Player'], how='left')
-    players.drop(columns=players.columns[4:7], axis=1, inplace=True)
-    players.drop(columns=players.columns[-1], axis=1, inplace=True)
+    players.drop(columns=players.columns[4:7], inplace=True)
+    players.drop(columns=players.columns[-1], inplace=True)
     players.fillna(0, inplace=True)
     players = players.reset_index(drop=True)
     players.index += 1
