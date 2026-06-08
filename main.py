@@ -816,7 +816,7 @@ with tab6:
     goals = pd.read_csv('data/qualification/2024Q_goals.csv', sep=';')
     possession = pd.read_csv('data/qualification/2024Q_possession.csv', sep=';')
 
-    passes.drop(columns=['Total passes', 'Passes arrived'], axis=1, inplace=True)
+    passes.drop(columns=['Total passes', 'Passes arrived'], inplace=True)
     passes = passes.sort_values(by='Total passes (avg)', ascending=False)
     possession.drop(possession.columns[0], axis=1, inplace=True)
     passes = pd.merge(passes, possession, on=['Country'], how='left')
